@@ -1,0 +1,97 @@
+Starting ucas_celery_redis ... 
+Starting ucas_mysql ... 
+Starting ucas_redis ... 
+Starting ucas_redis
+Starting ucas_celery_redis
+Starting ucas_mysql
+[1A[2KStarting ucas_celery_redis ... [32mdone[0m[1B[1A[2KStarting ucas_redis ... [32mdone[0m[1B[1A[2KStarting ucas_mysql ... [32mdone[0m[1BAttaching to ucas_celery_redis, ucas_redis, ucas_mysql
+[36mucas_celery_redis |[0m 1:C 11 Oct 2021 02:13:15.611 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[36mucas_celery_redis |[0m 1:C 11 Oct 2021 02:13:15.612 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=1, just started
+[36mucas_celery_redis |[0m 1:C 11 Oct 2021 02:13:15.612 # Configuration loaded
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.612 * monotonic clock: POSIX clock_gettime
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 * Running mode=standalone, port=6379.
+[32mucas_mysql      |[0m 2021-10-11 10:13:17+08:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.35-1debian10 started.
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 # Server initialized
+[33mucas_redis      |[0m 1:C 11 Oct 2021 02:13:16.436 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 * Loading RDB produced by version 6.2.6
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 * RDB age 166 seconds
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 * RDB memory usage when created 0.77 Mb
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.613 # Done loading RDB, keys loaded: 3, keys expired: 0.
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.614 * DB loaded from disk: 0.000 seconds
+[36mucas_celery_redis |[0m 1:M 11 Oct 2021 02:13:15.614 * Ready to accept connections
+[33mucas_redis      |[0m 1:C 11 Oct 2021 02:13:16.436 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=1, just started
+[33mucas_redis      |[0m 1:C 11 Oct 2021 02:13:16.436 # Configuration loaded
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.437 * monotonic clock: POSIX clock_gettime
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * Running mode=standalone, port=6379.
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 # Server initialized
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * Loading RDB produced by version 6.2.6
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * RDB age 167 seconds
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * RDB memory usage when created 0.77 Mb
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 # Done loading RDB, keys loaded: 3, keys expired: 0.
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * DB loaded from disk: 0.000 seconds
+[33mucas_redis      |[0m 1:M 11 Oct 2021 02:13:16.447 * Ready to accept connections
+[32mucas_mysql      |[0m 2021-10-11 10:13:18+08:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+[32mucas_mysql      |[0m 2021-10-11 10:13:18+08:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 5.7.35-1debian10 started.
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.117274Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.218175Z 0 [Note] mysqld (mysqld 5.7.35) starting as process 1 ...
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372695Z 0 [Note] InnoDB: PUNCH HOLE support available
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372745Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372754Z 0 [Note] InnoDB: Uses event mutexes
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372761Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372768Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.372783Z 0 [Note] InnoDB: Using Linux native AIO
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.374225Z 0 [Note] InnoDB: Number of pools: 1
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.374870Z 0 [Note] InnoDB: Using CPU crc32 instructions
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.382685Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.410195Z 0 [Note] InnoDB: Completed initialization of buffer pool
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.418037Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.435632Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.661491Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[32mucas_mysql      |[0m 2021-10-11T02:13:19.661654Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.199833Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.201444Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.201477Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.202171Z 0 [Note] InnoDB: Waiting for purge to start
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.252551Z 0 [Note] InnoDB: 5.7.35 started; log sequence number 14243524
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.253069Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.253377Z 0 [Note] Plugin 'FEDERATED' is disabled.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.263114Z 0 [Note] InnoDB: Buffer pool(s) load completed at 211011 10:13:20
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.272219Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.272264Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.272273Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.272278Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.273763Z 0 [Warning] CA certificate ca.pem is self signed.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.273826Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.275077Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.275248Z 0 [Note] IPv6 is available.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.275279Z 0 [Note]   - '::' resolves to '::';
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.275322Z 0 [Note] Server socket created on IP: '::'.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.710373Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.731440Z 0 [Note] Event Scheduler: Loaded 0 events
+[32mucas_mysql      |[0m 2021-10-11T02:13:20.732059Z 0 [Note] mysqld: ready for connections.
+[32mucas_mysql      |[0m Version: '5.7.35'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.872606Z 7 [Note] Aborted connection 7 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.872837Z 10 [Note] Aborted connection 10 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.872691Z 9 [Note] Aborted connection 9 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.873347Z 8 [Note] Aborted connection 8 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.873378Z 6 [Note] Aborted connection 6 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.873439Z 4 [Note] Aborted connection 4 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.873634Z 5 [Note] Aborted connection 5 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.873757Z 11 [Note] Aborted connection 11 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.877875Z 2 [Note] Aborted connection 2 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+[32mucas_mysql      |[0m 2021-10-11T02:17:40.877876Z 3 [Note] Aborted connection 3 to db: 'oj' user: 'oj' host: '172.18.0.1' (Got an error reading communication packets)
+Starting ucas_celery_redis ... 
+Starting ucas_celery_redis
+Starting ucas_mysql ... 
+Starting ucas_redis ... 
+Starting ucas_mysql
+Starting ucas_redis
+[1A[2KStarting ucas_mysql ... [31merror[0m[1B
+ERROR: for ucas_mysql  Cannot start service mysql: endpoint with name ucas_mysql already exists in network database_default
+[1A[2KStarting ucas_celery_redis ... [32mdone[0m[1B[1A[2KStarting ucas_redis ... [32mdone[0m[1B
+ERROR: for mysql  Cannot start service mysql: endpoint with name ucas_mysql already exists in network database_default
+Encountered errors while bringing up the project.
+An HTTP request took too long to complete. Retry with --verbose to obtain debug information.
+If you encounter this issue regularly because of slow network conditions, consider setting COMPOSE_HTTP_TIMEOUT to a higher value (current value: 60).

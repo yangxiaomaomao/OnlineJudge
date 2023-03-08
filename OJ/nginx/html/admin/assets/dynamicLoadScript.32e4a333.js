@@ -1,0 +1,1 @@
+const e=e=>new Promise(((t,n)=>{const o=document.createElement("script");o.src=e,document.body.appendChild(o),"onload"in o?(o.onload=()=>t(o),o.onerror=()=>n(o)):o.onreadystatechange=function(){"complete"!==this.readyState&&"loaded"!==this.readyState&&t(o),this.onreadystatechange=null}}));export{e as d};

@@ -1,0 +1,138 @@
+2021-10-15 15:05:39 Recevie data:{"filePath":"723.zip","userId":"8","expId":"1","fileId":"723"}
+2021-10-15 15:05:39 Recevie data:{"filePath":"724.zip","userId":"8","expId":"1","fileId":"724"}
+2021-10-15 15:12:26 Recevie data:{"filePath":"725.zip","userId":"8","expId":"1","fileId":"725"}
+2021-10-15 15:12:37 Return data:{
+    "fileId": "724", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/724.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 15:12:37 err:wrong number of arguments for 'subscribe' command
+taskId:e17f0350-ef05-4165-b551-fb6169f5c838
+2021-10-15 15:12:38 Recevie data:{"filePath":"726.zip","userId":"8","expId":"1","fileId":"726"}
+2021-10-15 15:12:39 RestartingThread terminates due to some unknown reasons,restarting......
+2021-10-15 15:12:47 Return data:{
+    "fileId": "726", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/726.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 15:31:10 Recevie data:{"filePath":"727.zip","userId":"8","expId":"1","fileId":"727"}
+2021-10-15 15:37:00 err:wrong number of arguments for 'subscribe' command
+taskId:b221295c-cff0-425c-b186-795c99187bc8
+2021-10-15 15:37:00 RestartingThread terminates due to some unknown reasons,restarting......
+2021-10-15 15:53:40 Recevie data:{"filePath":"729.zip","userId":"8","expId":"1","fileId":"729"}
+2021-10-15 16:04:13 Recevie data:{"filePath":"730.zip","userId":"8","expId":"1","fileId":"730"}
+2021-10-15 16:12:55 Recevie data:{"filePath":"731.zip","userId":"8","expId":"1","fileId":"731"}
+2021-10-15 16:12:56 Recevie data:{"filePath":"732.zip","userId":"8","expId":"1","fileId":"732"}
+2021-10-15 16:16:19 Return data:{
+    "fileId": "732", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/732.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 16:18:59 Recevie data:{"filePath":"733.zip","userId":"8","expId":"1","fileId":"733"}
+2021-10-15 16:19:50 Recevie data:{"filePath":"734.zip","userId":"8","expId":"1","fileId":"734"}
+2021-10-15 16:20:27 Recevie data:{"filePath":"735.zip","userId":"8","expId":"1","fileId":"735"}
+2021-10-15 16:20:39 Return data:{
+    "fileId": "735", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/735.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 16:28:32 Recevie data:{"filePath":"736.zip","userId":"8","expId":"1","fileId":"736"}
+2021-10-15 16:56:27 Recevie data:{"filePath":"737.zip","userId":"8","expId":"1","fileId":"737"}
+2021-10-15 17:01:56 Recevie data:{"filePath":"738.zip","userId":"8","expId":"1","fileId":"738"}
+2021-10-15 17:01:57 Recevie data:{"filePath":"739.zip","userId":"8","expId":"1","fileId":"739"}
+2021-10-15 17:01:58 Return data:{
+    "fileId": "737", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/737.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 17:02:04 Return data:{
+    "fileId": "739", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/739.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 17:18:30 Recevie data:{"filePath":"740.zip","userId":"8","expId":"1","fileId":"740"}
+2021-10-15 17:18:40 Return data:{
+    "fileId": "740", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/740.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-15 18:38:30 Recevie data:{"filePath":"741.zip","userId":"8","expId":"1","fileId":"741"}
+2021-10-15 18:56:29 RestartingThread terminates due to some unknown reasons,restarting......
+2021-10-17 13:34:08 Recevie data:{"filePath":"743.zip","userId":"8","expId":"1","fileId":"743"}
+2021-10-17 13:34:20 Return data:{
+    "fileId": "743", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/743.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-17 13:34:51 Recevie data:{"filePath":"744.zip","userId":"8","expId":"1","fileId":"744"}
+2021-10-17 13:34:52 Return data:{
+    "fileId": "744", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/744.zip", 
+    "status": "200", 
+    "statusDescr": "没有检测到Makefile", 
+    "test": null
+}
+2021-10-17 19:43:22 Recevie data:{"filePath":"745.zip","userId":"8","expId":"1","fileId":"745"}
+2021-10-17 19:46:36 Recevie data:{"filePath":"746.zip","userId":"8","expId":"1","fileId":"746"}
+2021-10-17 19:46:38 Return data:{
+    "fileId": "745", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/745.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-17 19:46:50 Return data:{
+    "fileId": "746", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/746.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}
+2021-10-18 13:29:00 Recevie data:{"filePath":"769.zip","userId":"8","expId":"1","fileId":"769"}
+2021-10-18 13:29:17 Return data:{
+    "fileId": "769", 
+    "expId": "1", 
+    "userId": "8", 
+    "filePath": "/archive/zip/769.zip", 
+    "status": "100", 
+    "statusDescr": "常规拓扑通过：5/5; 丢包拓扑通过：5/5", 
+    "test": "5,5,5,5"
+}

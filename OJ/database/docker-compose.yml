@@ -1,0 +1,43 @@
+version: '3'
+services:
+    mysql:
+        container_name: ucas_mysql
+        image: mysql:5.7
+        restart: always
+        volumes:
+            - ./mysql/conf.d:/docker-entrypoint-initdb.d
+            - ./mysql/data:/var/lib/mysql
+        ports:
+            - 3306:3306
+        environment:
+            TZ: Asia/Shanghai
+            MYSQL_ROOT_USER: root
+            MYSQL_ROOT_PASSWORD: 2020Cnic@!
+            MYSQL_DATABASE: oj
+            MYSQL_USER: oj
+            MYSQL_PASSWORD: NxeF8EWJ3Gak4eRi
+        command:
+            # --init-file /tmp/init.sql
+            # --init-file /docker-entrypoint-initdb.d/init.sql
+            --character-set-server=utf8mb4
+
+    redis:
+        container_name: ucas_redis
+        image: redis
+        restart: always
+        command: redis-server --requirepass kghl##@fdskga
+        volumes:
+            - ./redis:/data
+        ports:
+            - 6379:6379
+
+    celery_redis:
+        container_name: ucas_celery_redis
+        image: redis
+        restart: always
+        command: redis-server --requirepass kGhl@Fdskga
+        # volumes:
+        #     - ./celery_redis:/data
+        ports:
+            - 6380:6379
+

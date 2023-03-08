@@ -1,0 +1,1 @@
+import{d as a,c as s,p as e,e as t,g as o,h as c,l as d,i as n}from"./vendor.e45b1972.js";const r=d();e("data-v-51526d6a");const l=n("h1",null,"计算机网络实验",-1);t();var p=a({expose:[],setup:a=>(a,e)=>{const t=o("el-card");return c(),s(t,{class:"account-container"},{default:r((()=>[l])),_:1})}});p.__scopeId="data-v-51526d6a";export default p;
