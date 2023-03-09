@@ -287,3 +287,51 @@
     "expId": "2",
     "fileId": "2986"
 }
+2023-03-09 10:15:10 EnqueueData {
+    "filePath": "/archive/zip/2987.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2987"
+}
+2023-03-09 10:15:10 DequeueData delivered to 127.0.0.1:9999{
+    "filePath": "/archive/zip/2987.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2987"
+}
+2023-03-09 10:16:09 ReceiveResult {
+    "fileId": "2987",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2987.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "127.0.0.1"
+}
+2023-03-09 10:16:09 Remove the file /archive/zip/2987.zip
+2023-03-09 10:16:09 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"2987\",\n    \"expId\": 2,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/2987.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"127.0.0.1\"\n}"}
+2023-03-09 10:17:05 EnqueueData {
+    "filePath": "/archive/zip/2988.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2988"
+}
+2023-03-09 10:17:05 DequeueData delivered to 127.0.0.1:9999{
+    "filePath": "/archive/zip/2988.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2988"
+}
+2023-03-09 10:18:14 ReceiveResult {
+    "fileId": "2988",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2988.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "127.0.0.1"
+}
+2023-03-09 10:18:14 Remove the file /archive/zip/2988.zip
+2023-03-09 10:18:14 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"2988\",\n    \"expId\": 2,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/2988.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"127.0.0.1\"\n}"}

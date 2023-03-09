@@ -112,7 +112,7 @@ def hubPingTest(execFile):
     net, h1, h2, h3, b1 = generateHubTopo(hubTopo())
     net.start()
     time.sleep(0.5)
-    b1.cmd("{} &".format(execFile))
+    b1.cmd("./{} &".format(execFile))
     time.sleep(1)
 
     host_list = [h1, h2, h3]

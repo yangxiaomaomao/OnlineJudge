@@ -169,7 +169,7 @@ if __name__ == "__main__":
         fileId = data["fileId"]
         expId = int(data["expId"])
         userId = data["userId"]
-        filePath = data["filePath"]
+        filePath = data["filePath"] 
 
         os.system("scp -r yangxiaomao@192.168.0.230:%s ." % filePath)
 
