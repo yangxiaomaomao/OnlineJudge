@@ -204,9 +204,8 @@ def receiveResultAndSendback():
         response = {
             "code": 500,
             "message": '',
+            "data":rawData.decode()
         }
-        response = json.loads(json.dumps(response))
-        response["data"] = rawData
         response = json.dumps(response)
         print("response to sun ", response)
 

@@ -104,3 +104,27 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-03-09 10:06:33 connect to master
+2023-03-09 10:06:33 download finish
+2023-03-09 10:06:34 returnData {
+    "fileId": "2984",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2984.zip",
+    "status": "200",
+    "statusDescr": "没有检测到Makefile",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-03-09 10:07:32 connect to master
+2023-03-09 10:07:32 download finish
+2023-03-09 10:07:32 returnData {
+    "fileId": "2985",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2985.zip",
+    "status": "200",
+    "statusDescr": "没有检测到Makefile",
+    "test": null,
+    "ip": "192.168.0.230"
+}

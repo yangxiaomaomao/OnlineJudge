@@ -78,7 +78,7 @@ def getBWInTopo(file):
 
     h2.cmd("iperf -c 10.0.0.1 > %s &" % h2_iperf_h1_res)
     h3.cmd("iperf -c 10.0.0.1 > %s &" % h3_iperf_h1_res)
-    time.sleep(1) # fix
+    time.sleep(6) # fix
     os.system("sudo pkill -SIGTERM iperf")
     time.sleep(1)
 
@@ -92,7 +92,7 @@ def getBWInTopo(file):
     h1.cmd("iperf -c 10.0.0.2 > %s &" % h1_iperf_h2_res)
     h1.cmd("iperf -c 10.0.0.3 > %s &" % h1_iperf_h3_res)
     # wait 6s to finish the file writing
-    time.sleep(1)# fix
+    time.sleep(6)# fix
     os.system("sudo pkill -SIGTERM iperf")
 
     time.sleep(1)

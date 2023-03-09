@@ -215,3 +215,63 @@
     "ip": "192.168.0.230"
 }
 2023-03-09 09:56:09 Remove the file /archive/zip/2982.zip
+2023-03-09 10:06:13 EnqueueData {
+    "filePath": "/archive/zip/2983.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2983"
+}
+2023-03-09 10:06:13 DequeueData delivered to 192.168.0.173:9999{
+    "filePath": "/archive/zip/2983.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2983"
+}
+2023-03-09 10:06:33 EnqueueData {
+    "filePath": "/archive/zip/2984.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2984"
+}
+2023-03-09 10:06:33 DequeueData delivered to 127.0.0.1:9999{
+    "filePath": "/archive/zip/2984.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2984"
+}
+2023-03-09 10:06:34 ReceiveResult {
+    "fileId": "2984",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2984.zip",
+    "status": "200",
+    "statusDescr": "没有检测到Makefile",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-03-09 10:06:34 Remove the file /archive/zip/2984.zip
+2023-03-09 10:06:34 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"2984\",\n    \"expId\": 2,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/2984.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u6ca1\u6709\u68c0\u6d4b\u5230Makefile\",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-03-09 10:07:31 EnqueueData {
+    "filePath": "/archive/zip/2985.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2985"
+}
+2023-03-09 10:07:32 DequeueData delivered to 127.0.0.1:9999{
+    "filePath": "/archive/zip/2985.zip",
+    "userId": "8",
+    "expId": "2",
+    "fileId": "2985"
+}
+2023-03-09 10:07:32 ReceiveResult {
+    "fileId": "2985",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2985.zip",
+    "status": "200",
+    "statusDescr": "没有检测到Makefile",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-03-09 10:07:32 Remove the file /archive/zip/2985.zip
+2023-03-09 10:07:32 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"2985\",\n    \"expId\": 2,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/2985.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u6ca1\u6709\u68c0\u6d4b\u5230Makefile\",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
