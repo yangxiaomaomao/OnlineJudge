@@ -92,3 +92,15 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-03-09 09:56:09 connect to master
+2023-03-09 09:56:09 download finish
+2023-03-09 09:56:09 returnData {
+    "fileId": "2982",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2982.zip",
+    "status": "200",
+    "statusDescr": "没有检测到Makefile",
+    "test": null,
+    "ip": "192.168.0.230"
+}
