@@ -164,3 +164,39 @@
     "test": null,
     "ip": "127.0.0.1"
 }
+2023-03-09 10:49:29 connect to master
+2023-03-09 10:49:30 download finish
+2023-03-09 10:50:25 returnData {
+    "fileId": "2990",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2990.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "127.0.0.1"
+}
+2023-03-14 20:00:53 connect to master
+2023-03-14 20:00:53 download finish
+2023-03-14 20:01:48 returnData {
+    "fileId": "2991",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2991.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "127.0.0.1"
+}
+2023-03-14 21:07:10 connect to master
+2023-03-14 21:07:11 download finish
+2023-03-14 21:08:06 returnData {
+    "fileId": "2992",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2992.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "127.0.0.1"
+}

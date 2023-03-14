@@ -177,8 +177,8 @@ if __name__ == "__main__":
 
         returnData = main(fileId, expId, userId, filePath)
 
-        returnData["ip"] = "127.0.0.1"
-        #returnData["ip"] = str(socket.gethostbyname(socket.gethostname()))
+        # returnData["ip"] = "127.0.0.1"
+        returnData["ip"] = str(socket.gethostbyname(socket.gethostname()))
 
         returnData = json.dumps(returnData, indent=4, ensure_ascii=False)
 

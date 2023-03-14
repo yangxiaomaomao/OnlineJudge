@@ -23,15 +23,9 @@ BUSY = 1
 MAX_QUEUE_SIZE = 65535
 DEQUEUE_INTERVAL = 0.5
 POST_URL = "http://localhost:8080/OnlineJudge/contest/setStatus"
-workerList = [
-    
-    {"ip":"127.0.0.1","port":9999,"state":FREE},
-    # {"ip": "192.168.3.53", "port": 9999, "state": FREE},
-    {"ip": "192.168.0.173", "port": 9999, "state": FREE},
-    {"ip": "192.168.2.19", "port": 9999, "state": FREE},
-    {"ip": "192.168.2.188", "port": 9999, "state": FREE},
-    {"ip": "192.168.1.191", "port": 9999, "state": FREE},
-    {"ip": "192.168.1.225", "port": 9999, "state": FREE},
+workerList = [  
+    {"ip": "192.168.0.217", "port": 9999, "state": FREE},
+    {"ip": "192.168.0.230", "port": 9999, "state":FREE},
 ]
 # receive json type task
 taskQueue = Queue(maxsize=MAX_QUEUE_SIZE)
@@ -115,6 +109,7 @@ def saveArchives(expId, userId, filePath):
 
 def sendMsgTo(ip, port, msg):
     try:
+        print(ip,port)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((ip, port))
     except socket.error as msg:
