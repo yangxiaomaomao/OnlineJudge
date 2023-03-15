@@ -200,3 +200,15 @@
     "test": null,
     "ip": "127.0.0.1"
 }
+2023-03-14 21:41:32 connect to master
+2023-03-14 21:41:32 download finish
+2023-03-14 21:42:27 returnData {
+    "fileId": "2998",
+    "expId": 2,
+    "userId": "8",
+    "filePath": "/archive/zip/2998.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}

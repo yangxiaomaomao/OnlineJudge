@@ -12,9 +12,10 @@
 9. [master](./Readme/master.md)介绍
 
 ### worker准备工作
-1. 将worker目录放导worker机器的家目录（其他地方也行不过没必要）
-2. [ssh配置](./Readme/ssh.md)
-3. [安装mininets](./Readme/mininet.md)
+1. [安装小工具](./Readme/other.md)
+2. 将worker目录放导worker机器的家目录（其他地方也行不过没必要）
+3. [ssh配置](./Readme/ssh.md)
+4. [安装mininets](./Readme/mininet.md)
 
 ## 启动方法
 ### master
