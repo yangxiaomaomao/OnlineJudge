@@ -212,3 +212,15 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-03-27 23:26:13 connect to master
+2023-03-27 23:26:14 download finish
+2023-03-27 23:26:18 returnData {
+    "fileId": "3005",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3005.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
