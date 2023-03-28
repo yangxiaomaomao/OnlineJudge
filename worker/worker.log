@@ -224,3 +224,27 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-03-28 16:33:05 connect to master
+2023-03-28 16:33:05 download finish
+2023-03-28 16:33:09 returnData {
+    "fileId": "3006",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3006.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-03-28 16:34:03 connect to master
+2023-03-28 16:34:03 download finish
+2023-03-28 16:34:07 returnData {
+    "fileId": "3007",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3007.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}

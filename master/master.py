@@ -25,10 +25,17 @@ DEQUEUE_INTERVAL = 0.5
 POST_URL = "http://localhost:8080/OnlineJudge/contest/setStatus"
 
 master_ip = "192.168.0.230"
+w217 = "192.168.0.217"
+w237 = "192.168.2.237"
+w248 = "192.168.0.248"
+w234 = "192.168.1.234"
 
-workerList = [  
-    {"ip": "192.168.0.230", "port": 9999, "state": FREE},
-    {"ip": master_ip,       "port": 9999, "state": FREE},
+workerList = [ 
+    {"ip": w217, "port": 9999, "state": BUSY}, 
+    {"ip": w237, "port": 9999, "state": FREE}, 
+    {"ip": w248, "port": 9999, "state": FREE}, 
+    {"ip": w234, "port": 9999, "state": FREE},
+    {"ip": master_ip, "port": 9999, "state": BUSY},
 ]
 # receive json type task
 taskQueue = Queue(maxsize=MAX_QUEUE_SIZE)
