@@ -28,4 +28,6 @@
 1. 在[tmux](./Readme/tmux.md)中[启动worker](./Readme/worker.md)
 
 ## 模块介绍
+整体的工作原理介绍如下：
+![工作原理](./Readme/image/工作原理.png)
 1. 
