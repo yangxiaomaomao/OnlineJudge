@@ -911,3 +911,75 @@
 }
 2023-03-28 16:49:46 Remove the file /archive/zip/3014.zip
 2023-03-28 16:49:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3014\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3014.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.2.237\"\n}"}
+2023-03-28 16:51:58 EnqueueData {
+    "filePath": "/archive/zip/3015.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3015"
+}
+2023-03-28 16:51:59 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/3015.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3015"
+}
+2023-03-28 16:52:03 ReceiveResult {
+    "fileId": "3015",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3015.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-03-28 16:52:03 Remove the file /archive/zip/3015.zip
+2023-03-28 16:52:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3015\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3015.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-03-28 16:52:22 EnqueueData {
+    "filePath": "/archive/zip/3016.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3016"
+}
+2023-03-28 16:52:22 DequeueData delivered to 192.168.1.234:9999{
+    "filePath": "/archive/zip/3016.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3016"
+}
+2023-03-28 16:52:26 ReceiveResult {
+    "fileId": "3016",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3016.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.1.234"
+}
+2023-03-28 16:52:26 Remove the file /archive/zip/3016.zip
+2023-03-28 16:52:26 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3016\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3016.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.1.234\"\n}"}
+2023-03-28 16:53:39 EnqueueData {
+    "filePath": "/archive/zip/3017.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3017"
+}
+2023-03-28 16:53:39 DequeueData delivered to 192.168.1.234:9999{
+    "filePath": "/archive/zip/3017.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3017"
+}
+2023-03-28 16:53:41 ReceiveResult {
+    "fileId": "3017",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3017.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.1.234"
+}
+2023-03-28 16:53:41 Remove the file /archive/zip/3017.zip
+2023-03-28 16:53:41 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3017\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3017.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.1.234\"\n}"}
