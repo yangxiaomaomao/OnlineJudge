@@ -23,9 +23,12 @@ BUSY = 1
 MAX_QUEUE_SIZE = 65535
 DEQUEUE_INTERVAL = 0.5
 POST_URL = "http://localhost:8080/OnlineJudge/contest/setStatus"
+
+master_ip = "192.168.0.230"
+
 workerList = [  
     {"ip": "192.168.0.230", "port": 9999, "state": FREE},
-    {"ip": "192.168.0.217", "port": 9999, "state":FREE},
+    {"ip": master_ip,       "port": 9999, "state": FREE},
 ]
 # receive json type task
 taskQueue = Queue(maxsize=MAX_QUEUE_SIZE)
