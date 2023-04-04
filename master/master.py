@@ -13,10 +13,10 @@ import globalConf
 import shutil 
 import importlib
 
-# sudo scp yangxiaomao@192.168.2.151:/home/yangxiaomao/worker/mininetTopo.py . && ./run_worker.sh
-# sudo scp yangxiaomao@192.168.2.151:/home/yangxiaomao/worker/main.py . && chmod 777 main.py && ./run_worker.sh
+# sudo scp yangxiaomao@192.168.0.230:/home/yangxiaomao/worker/mininetTopo.py . && ./run_worker.sh
+# sudo scp yangxiaomao@192.168.0.230:/home/yangxiaomao/worker/main.py . && chmod 777 main.py && ./run_worker.sh
 # 记得改地址啊
-# cd && rm -rf worker && rm -f worker.zip && sudo scp yangxiaomao@192.168.2.151:/home/yangxiaomao/worker.zip . && unzip worker.zip && chmod 777 -R worker && cd worker && ./run_worker.sh
+# cd && rm -rf worker && rm -f worker.zip && sudo scp yangxiaomao@192.168.0.230:/home/yangxiaomao/OnlineJudge/worker.zip . && unzip worker.zip && chmod 777 -R worker && cd worker && ./run_worker.sh
 # cd /etc/apt && sudo scp yangxiaomao@192.168.2.151:/home/yangxiaomao/sources.list . && sudo apt update && sudo apt install libssl1.1=1.1.1f-1ubuntu2.12 && sudo apt install libssl-dev
 FREE = 0
 BUSY = 1 
