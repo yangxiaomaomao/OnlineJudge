@@ -2807,3 +2807,3567 @@
 }
 2023-04-04 03:23:18 Remove the file /archive/zip/3093.zip
 2023-04-04 03:23:18 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3093\",\n    \"expId\": 13,\n    \"userId\": \"385\",\n    \"filePath\": \"/archive/zip/3093.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 15:24:57 EnqueueData {
+    "filePath": "/archive/zip/3094.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3094"
+}
+2023-04-04 15:24:57 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3094.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3094"
+}
+2023-04-04 15:25:00 ReceiveResult {
+    "fileId": "3094",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3094.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 15:25:00 Remove the file /archive/zip/3094.zip
+2023-04-04 15:25:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3094\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3094.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 15:42:05 EnqueueData {
+    "filePath": "/archive/zip/3095.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3095"
+}
+2023-04-04 15:42:05 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3095.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3095"
+}
+2023-04-04 15:42:07 ReceiveResult {
+    "fileId": "3095",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3095.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 15:42:07 Remove the file /archive/zip/3095.zip
+2023-04-04 15:42:07 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3095\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3095.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 15:55:32 EnqueueData {
+    "filePath": "/archive/zip/3096.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3096"
+}
+2023-04-04 15:55:32 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3096.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3096"
+}
+2023-04-04 15:55:33 ReceiveResult {
+    "fileId": "3096",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3096.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 15:55:33 Remove the file /archive/zip/3096.zip
+2023-04-04 15:55:33 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3096\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3096.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:01:49 EnqueueData {
+    "filePath": "/archive/zip/3097.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3097"
+}
+2023-04-04 16:01:50 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3097.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3097"
+}
+2023-04-04 16:01:52 ReceiveResult {
+    "fileId": "3097",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3097.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:01:53 Remove the file /archive/zip/3097.zip
+2023-04-04 16:01:53 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3097\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3097.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:03:33 EnqueueData {
+    "filePath": "/archive/zip/3098.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3098"
+}
+2023-04-04 16:03:33 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3098.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3098"
+}
+2023-04-04 16:03:36 ReceiveResult {
+    "fileId": "3098",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3098.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:03:36 Remove the file /archive/zip/3098.zip
+2023-04-04 16:03:36 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3098\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3098.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:10:46 EnqueueData {
+    "filePath": "/archive/zip/3099.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3099"
+}
+2023-04-04 16:10:46 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3099.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3099"
+}
+2023-04-04 16:10:49 ReceiveResult {
+    "fileId": "3099",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3099.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:10:49 Remove the file /archive/zip/3099.zip
+2023-04-04 16:10:49 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3099\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3099.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:11:05 EnqueueData {
+    "filePath": "/archive/zip/3100.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3100"
+}
+2023-04-04 16:11:05 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3100.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3100"
+}
+2023-04-04 16:11:06 ReceiveResult {
+    "fileId": "3100",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3100.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:11:06 Remove the file /archive/zip/3100.zip
+2023-04-04 16:11:06 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3100\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3100.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:13:52 EnqueueData {
+    "filePath": "/archive/zip/3101.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3101"
+}
+2023-04-04 16:13:52 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3101.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3101"
+}
+2023-04-04 16:13:53 ReceiveResult {
+    "fileId": "3101",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3101.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:13:53 Remove the file /archive/zip/3101.zip
+2023-04-04 16:13:53 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3101\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3101.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:15:55 EnqueueData {
+    "filePath": "/archive/zip/3102.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3102"
+}
+2023-04-04 16:15:55 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3102.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3102"
+}
+2023-04-04 16:15:56 ReceiveResult {
+    "fileId": "3102",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3102.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:15:56 Remove the file /archive/zip/3102.zip
+2023-04-04 16:15:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3102\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3102.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:18:47 EnqueueData {
+    "filePath": "/archive/zip/3103.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3103"
+}
+2023-04-04 16:18:47 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3103.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3103"
+}
+2023-04-04 16:18:48 ReceiveResult {
+    "fileId": "3103",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3103.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:18:48 Remove the file /archive/zip/3103.zip
+2023-04-04 16:18:48 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3103\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3103.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:20:17 EnqueueData {
+    "filePath": "/archive/zip/3104.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3104"
+}
+2023-04-04 16:20:17 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3104.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3104"
+}
+2023-04-04 16:20:20 ReceiveResult {
+    "fileId": "3104",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3104.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:20:20 Remove the file /archive/zip/3104.zip
+2023-04-04 16:20:20 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3104\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3104.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:35:41 EnqueueData {
+    "filePath": "/archive/zip/3105.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3105"
+}
+2023-04-04 16:35:41 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3105.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3105"
+}
+2023-04-04 16:35:46 ReceiveResult {
+    "fileId": "3105",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3105.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:35:46 Remove the file /archive/zip/3105.zip
+2023-04-04 16:35:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3105\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3105.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:45:55 EnqueueData {
+    "filePath": "/archive/zip/3106.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3106"
+}
+2023-04-04 16:45:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3106.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3106"
+}
+2023-04-04 16:45:59 ReceiveResult {
+    "fileId": "3106",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3106.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:45:59 Remove the file /archive/zip/3106.zip
+2023-04-04 16:45:59 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3106\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3106.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:48:43 EnqueueData {
+    "filePath": "/archive/zip/3107.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3107"
+}
+2023-04-04 16:48:44 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3107.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3107"
+}
+2023-04-04 16:48:46 ReceiveResult {
+    "fileId": "3107",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3107.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:48:46 Remove the file /archive/zip/3107.zip
+2023-04-04 16:48:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3107\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3107.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 16:50:25 EnqueueData {
+    "filePath": "/archive/zip/3108.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3108"
+}
+2023-04-04 16:50:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3108.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3108"
+}
+2023-04-04 16:50:28 ReceiveResult {
+    "fileId": "3108",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3108.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 16:50:28 Remove the file /archive/zip/3108.zip
+2023-04-04 16:50:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3108\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3108.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 17:43:50 EnqueueData {
+    "filePath": "/archive/zip/3109.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3109"
+}
+2023-04-04 17:43:50 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3109.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3109"
+}
+2023-04-04 17:43:52 ReceiveResult {
+    "fileId": "3109",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3109.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 17:43:52 Remove the file /archive/zip/3109.zip
+2023-04-04 17:43:53 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3109\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3109.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 17:48:06 EnqueueData {
+    "filePath": "/archive/zip/3110.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3110"
+}
+2023-04-04 17:48:06 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3110.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3110"
+}
+2023-04-04 17:48:08 ReceiveResult {
+    "fileId": "3110",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3110.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 17:48:08 Remove the file /archive/zip/3110.zip
+2023-04-04 17:48:08 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3110\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3110.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 17:53:45 EnqueueData {
+    "filePath": "/archive/zip/3111.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3111"
+}
+2023-04-04 17:53:45 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3111.zip",
+    "userId": "377",
+    "expId": "13",
+    "fileId": "3111"
+}
+2023-04-04 17:53:50 ReceiveResult {
+    "fileId": "3111",
+    "expId": 13,
+    "userId": "377",
+    "filePath": "/archive/zip/3111.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 17:53:50 Remove the file /archive/zip/3111.zip
+2023-04-04 17:53:50 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3111\",\n    \"expId\": 13,\n    \"userId\": \"377\",\n    \"filePath\": \"/archive/zip/3111.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 18:45:18 EnqueueData {
+    "filePath": "/archive/zip/3112.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3112"
+}
+2023-04-04 18:45:19 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3112.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3112"
+}
+2023-04-04 18:45:22 ReceiveResult {
+    "fileId": "3112",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3112.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 18:45:22 Remove the file /archive/zip/3112.zip
+2023-04-04 18:45:22 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3112\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3112.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 20:00:15 EnqueueData {
+    "filePath": "/archive/zip/3113.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3113"
+}
+2023-04-04 20:00:15 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3113.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3113"
+}
+2023-04-04 20:00:18 ReceiveResult {
+    "fileId": "3113",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3113.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 20:00:18 Remove the file /archive/zip/3113.zip
+2023-04-04 20:00:18 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3113\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3113.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 21:14:28 EnqueueData {
+    "filePath": "/archive/zip/3114.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3114"
+}
+2023-04-04 21:14:29 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3114.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3114"
+}
+2023-04-04 21:14:31 ReceiveResult {
+    "fileId": "3114",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3114.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 21:14:31 Remove the file /archive/zip/3114.zip
+2023-04-04 21:14:31 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3114\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3114.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 21:46:51 EnqueueData {
+    "filePath": "/archive/zip/3115.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3115"
+}
+2023-04-04 21:46:51 EnqueueData {
+    "filePath": "/archive/zip/3116.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3116"
+}
+2023-04-04 21:46:52 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3115.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3115"
+}
+2023-04-04 21:46:52 DequeueData delivered to 192.168.2.237:9999{
+    "filePath": "/archive/zip/3116.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3116"
+}
+2023-04-04 21:46:54 ReceiveResult {
+    "fileId": "3115",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3115.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 21:46:54 Remove the file /archive/zip/3115.zip
+2023-04-04 21:46:55 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3115\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3115.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 21:46:56 ReceiveResult {
+    "fileId": "3116",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3116.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.2.237"
+}
+2023-04-04 21:46:56 Remove the file /archive/zip/3116.zip
+2023-04-04 21:46:57 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3116\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3116.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.2.237\"\n}"}
+2023-04-04 21:47:25 EnqueueData {
+    "filePath": "/archive/zip/3117.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3117"
+}
+2023-04-04 21:47:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3117.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3117"
+}
+2023-04-04 21:47:29 ReceiveResult {
+    "fileId": "3117",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3117.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 21:47:29 Remove the file /archive/zip/3117.zip
+2023-04-04 21:47:33 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3117\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3117.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 22:09:58 EnqueueData {
+    "filePath": "/archive/zip/3118.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3118"
+}
+2023-04-04 22:09:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3118.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3118"
+}
+2023-04-04 22:10:01 ReceiveResult {
+    "fileId": "3118",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3118.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 22:10:01 Remove the file /archive/zip/3118.zip
+2023-04-04 22:10:04 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3118\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3118.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 22:13:56 EnqueueData {
+    "filePath": "/archive/zip/3119.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3119"
+}
+2023-04-04 22:13:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3119.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3119"
+}
+2023-04-04 22:14:00 ReceiveResult {
+    "fileId": "3119",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3119.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 22:14:00 Remove the file /archive/zip/3119.zip
+2023-04-04 22:14:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3119\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3119.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 22:19:19 EnqueueData {
+    "filePath": "/archive/zip/3120.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3120"
+}
+2023-04-04 22:19:19 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3120.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3120"
+}
+2023-04-04 22:19:23 ReceiveResult {
+    "fileId": "3120",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3120.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 22:19:23 Remove the file /archive/zip/3120.zip
+2023-04-04 22:19:23 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3120\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3120.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 22:36:54 EnqueueData {
+    "filePath": "/archive/zip/3121.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3121"
+}
+2023-04-04 22:36:54 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3121.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3121"
+}
+2023-04-04 22:36:56 ReceiveResult {
+    "fileId": "3121",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3121.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 22:36:56 Remove the file /archive/zip/3121.zip
+2023-04-04 22:36:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3121\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3121.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-04 23:07:09 EnqueueData {
+    "filePath": "/archive/zip/3122.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3122"
+}
+2023-04-04 23:07:09 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3122.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3122"
+}
+2023-04-04 23:07:12 ReceiveResult {
+    "fileId": "3122",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3122.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-04 23:07:12 Remove the file /archive/zip/3122.zip
+2023-04-04 23:07:12 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3122\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3122.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 10:10:20 EnqueueData {
+    "filePath": "/archive/zip/3123.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3123"
+}
+2023-04-05 10:10:20 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3123.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3123"
+}
+2023-04-05 10:10:23 ReceiveResult {
+    "fileId": "3123",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3123.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 10:10:23 Remove the file /archive/zip/3123.zip
+2023-04-05 10:10:23 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3123\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3123.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 10:56:00 EnqueueData {
+    "filePath": "/archive/zip/3124.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3124"
+}
+2023-04-05 10:56:01 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3124.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3124"
+}
+2023-04-05 10:56:03 ReceiveResult {
+    "fileId": "3124",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3124.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 10:56:03 Remove the file /archive/zip/3124.zip
+2023-04-05 10:56:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3124\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3124.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:13:27 EnqueueData {
+    "filePath": "/archive/zip/3125.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3125"
+}
+2023-04-05 11:13:27 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3125.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3125"
+}
+2023-04-05 11:13:30 ReceiveResult {
+    "fileId": "3125",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3125.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:13:30 Remove the file /archive/zip/3125.zip
+2023-04-05 11:13:30 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3125\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3125.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:14:25 EnqueueData {
+    "filePath": "/archive/zip/3126.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3126"
+}
+2023-04-05 11:14:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3126.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3126"
+}
+2023-04-05 11:14:28 ReceiveResult {
+    "fileId": "3126",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3126.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:14:28 Remove the file /archive/zip/3126.zip
+2023-04-05 11:14:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3126\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3126.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:24:39 EnqueueData {
+    "filePath": "/archive/zip/3127.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3127"
+}
+2023-04-05 11:24:39 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3127.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3127"
+}
+2023-04-05 11:24:40 ReceiveResult {
+    "fileId": "3127",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3127.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:24:40 Remove the file /archive/zip/3127.zip
+2023-04-05 11:24:40 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3127\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3127.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:24:58 EnqueueData {
+    "filePath": "/archive/zip/3128.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3128"
+}
+2023-04-05 11:24:58 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3128.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3128"
+}
+2023-04-05 11:25:01 ReceiveResult {
+    "fileId": "3128",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3128.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:25:01 Remove the file /archive/zip/3128.zip
+2023-04-05 11:25:01 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3128\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3128.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:25:53 EnqueueData {
+    "filePath": "/archive/zip/3129.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3129"
+}
+2023-04-05 11:25:53 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3129.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3129"
+}
+2023-04-05 11:25:56 ReceiveResult {
+    "fileId": "3129",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3129.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:25:56 Remove the file /archive/zip/3129.zip
+2023-04-05 11:25:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3129\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3129.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:26:59 EnqueueData {
+    "filePath": "/archive/zip/3130.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3130"
+}
+2023-04-05 11:26:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3130.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3130"
+}
+2023-04-05 11:27:02 ReceiveResult {
+    "fileId": "3130",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3130.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:27:02 Remove the file /archive/zip/3130.zip
+2023-04-05 11:27:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3130\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3130.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:27:18 EnqueueData {
+    "filePath": "/archive/zip/3131.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3131"
+}
+2023-04-05 11:27:18 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3131.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3131"
+}
+2023-04-05 11:27:20 ReceiveResult {
+    "fileId": "3131",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3131.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:27:20 Remove the file /archive/zip/3131.zip
+2023-04-05 11:27:20 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3131\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3131.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:29:27 EnqueueData {
+    "filePath": "/archive/zip/3132.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3132"
+}
+2023-04-05 11:29:27 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3132.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3132"
+}
+2023-04-05 11:29:30 ReceiveResult {
+    "fileId": "3132",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3132.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:29:30 Remove the file /archive/zip/3132.zip
+2023-04-05 11:29:30 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3132\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3132.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:34:12 EnqueueData {
+    "filePath": "/archive/zip/3133.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3133"
+}
+2023-04-05 11:34:12 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3133.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3133"
+}
+2023-04-05 11:34:13 ReceiveResult {
+    "fileId": "3133",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3133.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:34:13 Remove the file /archive/zip/3133.zip
+2023-04-05 11:34:13 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3133\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3133.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:35:25 EnqueueData {
+    "filePath": "/archive/zip/3134.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3134"
+}
+2023-04-05 11:35:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3134.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3134"
+}
+2023-04-05 11:35:28 ReceiveResult {
+    "fileId": "3134",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3134.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:35:29 Remove the file /archive/zip/3134.zip
+2023-04-05 11:35:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3134\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3134.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:40:08 EnqueueData {
+    "filePath": "/archive/zip/3135.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3135"
+}
+2023-04-05 11:40:08 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3135.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3135"
+}
+2023-04-05 11:40:11 ReceiveResult {
+    "fileId": "3135",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3135.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:40:11 Remove the file /archive/zip/3135.zip
+2023-04-05 11:40:11 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3135\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3135.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:40:40 EnqueueData {
+    "filePath": "/archive/zip/3136.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3136"
+}
+2023-04-05 11:40:40 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3136.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3136"
+}
+2023-04-05 11:40:44 ReceiveResult {
+    "fileId": "3136",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3136.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:40:44 Remove the file /archive/zip/3136.zip
+2023-04-05 11:40:44 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3136\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3136.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:41:59 EnqueueData {
+    "filePath": "/archive/zip/3137.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3137"
+}
+2023-04-05 11:41:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3137.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3137"
+}
+2023-04-05 11:42:00 ReceiveResult {
+    "fileId": "3137",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3137.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:42:00 Remove the file /archive/zip/3137.zip
+2023-04-05 11:42:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3137\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3137.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:44:33 EnqueueData {
+    "filePath": "/archive/zip/3138.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3138"
+}
+2023-04-05 11:44:33 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3138.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3138"
+}
+2023-04-05 11:44:36 ReceiveResult {
+    "fileId": "3138",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3138.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:44:36 Remove the file /archive/zip/3138.zip
+2023-04-05 11:44:36 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3138\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3138.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:45:25 EnqueueData {
+    "filePath": "/archive/zip/3139.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3139"
+}
+2023-04-05 11:45:26 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3139.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3139"
+}
+2023-04-05 11:45:29 ReceiveResult {
+    "fileId": "3139",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3139.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:45:29 Remove the file /archive/zip/3139.zip
+2023-04-05 11:45:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3139\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3139.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:48:59 EnqueueData {
+    "filePath": "/archive/zip/3140.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3140"
+}
+2023-04-05 11:48:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3140.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3140"
+}
+2023-04-05 11:49:02 ReceiveResult {
+    "fileId": "3140",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3140.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:49:02 Remove the file /archive/zip/3140.zip
+2023-04-05 11:49:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3140\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3140.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:50:45 EnqueueData {
+    "filePath": "/archive/zip/3141.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3141"
+}
+2023-04-05 11:50:45 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3141.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3141"
+}
+2023-04-05 11:50:46 ReceiveResult {
+    "fileId": "3141",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3141.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:50:46 Remove the file /archive/zip/3141.zip
+2023-04-05 11:50:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3141\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3141.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:51:21 EnqueueData {
+    "filePath": "/archive/zip/3142.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3142"
+}
+2023-04-05 11:51:21 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3142.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3142"
+}
+2023-04-05 11:51:24 ReceiveResult {
+    "fileId": "3142",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3142.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:51:24 Remove the file /archive/zip/3142.zip
+2023-04-05 11:51:24 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3142\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3142.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:53:45 EnqueueData {
+    "filePath": "/archive/zip/3143.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3143"
+}
+2023-04-05 11:53:45 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3143.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3143"
+}
+2023-04-05 11:53:46 ReceiveResult {
+    "fileId": "3143",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3143.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:53:46 Remove the file /archive/zip/3143.zip
+2023-04-05 11:53:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3143\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3143.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 11:54:11 EnqueueData {
+    "filePath": "/archive/zip/3144.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3144"
+}
+2023-04-05 11:54:11 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3144.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3144"
+}
+2023-04-05 11:54:16 ReceiveResult {
+    "fileId": "3144",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3144.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 11:54:16 Remove the file /archive/zip/3144.zip
+2023-04-05 11:54:16 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3144\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3144.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 12:30:04 EnqueueData {
+    "filePath": "/archive/zip/3145.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3145"
+}
+2023-04-05 12:30:05 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3145.zip",
+    "userId": "360",
+    "expId": "13",
+    "fileId": "3145"
+}
+2023-04-05 12:30:08 ReceiveResult {
+    "fileId": "3145",
+    "expId": 13,
+    "userId": "360",
+    "filePath": "/archive/zip/3145.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 12:30:08 Remove the file /archive/zip/3145.zip
+2023-04-05 12:30:08 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3145\",\n    \"expId\": 13,\n    \"userId\": \"360\",\n    \"filePath\": \"/archive/zip/3145.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 12:42:24 EnqueueData {
+    "filePath": "/archive/zip/3146.zip",
+    "userId": "391",
+    "expId": "13",
+    "fileId": "3146"
+}
+2023-04-05 12:42:24 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3146.zip",
+    "userId": "391",
+    "expId": "13",
+    "fileId": "3146"
+}
+2023-04-05 12:42:25 ReceiveResult {
+    "fileId": "3146",
+    "expId": 13,
+    "userId": "391",
+    "filePath": "/archive/zip/3146.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 12:42:25 Remove the file /archive/zip/3146.zip
+2023-04-05 12:42:25 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3146\",\n    \"expId\": 13,\n    \"userId\": \"391\",\n    \"filePath\": \"/archive/zip/3146.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 13:05:38 EnqueueData {
+    "filePath": "/archive/zip/3147.zip",
+    "userId": "391",
+    "expId": "13",
+    "fileId": "3147"
+}
+2023-04-05 13:05:38 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3147.zip",
+    "userId": "391",
+    "expId": "13",
+    "fileId": "3147"
+}
+2023-04-05 13:05:42 ReceiveResult {
+    "fileId": "3147",
+    "expId": 13,
+    "userId": "391",
+    "filePath": "/archive/zip/3147.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 13:05:42 Remove the file /archive/zip/3147.zip
+2023-04-05 13:05:42 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3147\",\n    \"expId\": 13,\n    \"userId\": \"391\",\n    \"filePath\": \"/archive/zip/3147.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 13:15:10 EnqueueData {
+    "filePath": "/archive/zip/3148.zip",
+    "userId": "370",
+    "expId": "13",
+    "fileId": "3148"
+}
+2023-04-05 13:15:10 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3148.zip",
+    "userId": "370",
+    "expId": "13",
+    "fileId": "3148"
+}
+2023-04-05 13:15:11 ReceiveResult {
+    "fileId": "3148",
+    "expId": 13,
+    "userId": "370",
+    "filePath": "/archive/zip/3148.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 13:15:11 Remove the file /archive/zip/3148.zip
+2023-04-05 13:15:11 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3148\",\n    \"expId\": 13,\n    \"userId\": \"370\",\n    \"filePath\": \"/archive/zip/3148.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 13:16:42 EnqueueData {
+    "filePath": "/archive/zip/3149.zip",
+    "userId": "370",
+    "expId": "13",
+    "fileId": "3149"
+}
+2023-04-05 13:16:42 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3149.zip",
+    "userId": "370",
+    "expId": "13",
+    "fileId": "3149"
+}
+2023-04-05 13:16:46 ReceiveResult {
+    "fileId": "3149",
+    "expId": 13,
+    "userId": "370",
+    "filePath": "/archive/zip/3149.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 13:16:46 Remove the file /archive/zip/3149.zip
+2023-04-05 13:16:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3149\",\n    \"expId\": 13,\n    \"userId\": \"370\",\n    \"filePath\": \"/archive/zip/3149.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 13:27:38 EnqueueData {
+    "filePath": "/archive/zip/3150.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3150"
+}
+2023-04-05 13:27:38 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3150.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3150"
+}
+2023-04-05 13:27:41 ReceiveResult {
+    "fileId": "3150",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3150.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 13:27:41 Remove the file /archive/zip/3150.zip
+2023-04-05 13:27:41 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3150\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3150.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 13:27:56 EnqueueData {
+    "filePath": "/archive/zip/3151.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3151"
+}
+2023-04-05 13:27:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3151.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3151"
+}
+2023-04-05 13:27:59 ReceiveResult {
+    "fileId": "3151",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3151.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 13:27:59 Remove the file /archive/zip/3151.zip
+2023-04-05 13:27:59 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3151\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3151.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 14:53:44 EnqueueData {
+    "filePath": "/archive/zip/3152.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3152"
+}
+2023-04-05 14:53:44 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3152.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3152"
+}
+2023-04-05 14:53:47 ReceiveResult {
+    "fileId": "3152",
+    "expId": 13,
+    "userId": "381",
+    "filePath": "/archive/zip/3152.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 14:53:47 Remove the file /archive/zip/3152.zip
+2023-04-05 14:53:47 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3152\",\n    \"expId\": 13,\n    \"userId\": \"381\",\n    \"filePath\": \"/archive/zip/3152.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:11:26 EnqueueData {
+    "filePath": "/archive/zip/3153.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3153"
+}
+2023-04-05 15:11:26 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3153.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3153"
+}
+2023-04-05 15:11:29 ReceiveResult {
+    "fileId": "3153",
+    "expId": 13,
+    "userId": "381",
+    "filePath": "/archive/zip/3153.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:11:29 Remove the file /archive/zip/3153.zip
+2023-04-05 15:11:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3153\",\n    \"expId\": 13,\n    \"userId\": \"381\",\n    \"filePath\": \"/archive/zip/3153.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:17:32 EnqueueData {
+    "filePath": "/archive/zip/3154.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3154"
+}
+2023-04-05 15:17:33 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3154.zip",
+    "userId": "381",
+    "expId": "13",
+    "fileId": "3154"
+}
+2023-04-05 15:17:36 ReceiveResult {
+    "fileId": "3154",
+    "expId": 13,
+    "userId": "381",
+    "filePath": "/archive/zip/3154.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:17:36 Remove the file /archive/zip/3154.zip
+2023-04-05 15:17:36 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3154\",\n    \"expId\": 13,\n    \"userId\": \"381\",\n    \"filePath\": \"/archive/zip/3154.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:22:51 EnqueueData {
+    "filePath": "/archive/zip/3155.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3155"
+}
+2023-04-05 15:22:51 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3155.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3155"
+}
+2023-04-05 15:22:54 ReceiveResult {
+    "fileId": "3155",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3155.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:22:54 Remove the file /archive/zip/3155.zip
+2023-04-05 15:22:54 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3155\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3155.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:33:17 EnqueueData {
+    "filePath": "/archive/zip/3157.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3157"
+}
+2023-04-05 15:33:17 EnqueueData {
+    "filePath": "/archive/zip/3156.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3156"
+}
+2023-04-05 15:33:17 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3157.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3157"
+}
+2023-04-05 15:33:18 DequeueData delivered to 192.168.2.237:9999{
+    "filePath": "/archive/zip/3156.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3156"
+}
+2023-04-05 15:33:20 ReceiveResult {
+    "fileId": "3157",
+    "expId": 13,
+    "userId": "386",
+    "filePath": "/archive/zip/3157.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:33:20 Remove the file /archive/zip/3157.zip
+2023-04-05 15:33:20 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3157\",\n    \"expId\": 13,\n    \"userId\": \"386\",\n    \"filePath\": \"/archive/zip/3157.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:33:20 ReceiveResult {
+    "fileId": "3156",
+    "expId": 13,
+    "userId": "386",
+    "filePath": "/archive/zip/3156.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.2.237"
+}
+2023-04-05 15:33:20 Remove the file /archive/zip/3156.zip
+2023-04-05 15:33:20 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3156\",\n    \"expId\": 13,\n    \"userId\": \"386\",\n    \"filePath\": \"/archive/zip/3156.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.2.237\"\n}"}
+2023-04-05 15:41:54 EnqueueData {
+    "filePath": "/archive/zip/3158.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3158"
+}
+2023-04-05 15:41:54 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3158.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3158"
+}
+2023-04-05 15:41:55 ReceiveResult {
+    "fileId": "3158",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3158.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:41:55 Remove the file /archive/zip/3158.zip
+2023-04-05 15:41:55 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3158\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3158.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:46:12 EnqueueData {
+    "filePath": "/archive/zip/3159.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3159"
+}
+2023-04-05 15:46:12 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3159.zip",
+    "userId": "386",
+    "expId": "13",
+    "fileId": "3159"
+}
+2023-04-05 15:46:15 ReceiveResult {
+    "fileId": "3159",
+    "expId": 13,
+    "userId": "386",
+    "filePath": "/archive/zip/3159.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:46:15 Remove the file /archive/zip/3159.zip
+2023-04-05 15:46:15 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3159\",\n    \"expId\": 13,\n    \"userId\": \"386\",\n    \"filePath\": \"/archive/zip/3159.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Fail;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:46:46 EnqueueData {
+    "filePath": "/archive/zip/3160.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3160"
+}
+2023-04-05 15:46:47 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3160.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3160"
+}
+2023-04-05 15:46:49 ReceiveResult {
+    "fileId": "3160",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3160.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:46:50 Remove the file /archive/zip/3160.zip
+2023-04-05 15:46:50 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3160\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3160.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:56:46 EnqueueData {
+    "filePath": "/archive/zip/3161.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3161"
+}
+2023-04-05 15:56:46 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3161.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3161"
+}
+2023-04-05 15:56:49 ReceiveResult {
+    "fileId": "3161",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3161.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:56:49 Remove the file /archive/zip/3161.zip
+2023-04-05 15:56:49 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3161\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3161.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:59:04 EnqueueData {
+    "filePath": "/archive/zip/3162.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3162"
+}
+2023-04-05 15:59:04 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3162.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3162"
+}
+2023-04-05 15:59:05 ReceiveResult {
+    "fileId": "3162",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3162.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 15:59:05 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3162\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3162.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 15:59:05 Remove the file /archive/zip/3162.zip
+2023-04-05 16:29:52 EnqueueData {
+    "filePath": "/archive/zip/3163.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3163"
+}
+2023-04-05 16:29:53 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3163.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3163"
+}
+2023-04-05 16:29:56 ReceiveResult {
+    "fileId": "3163",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3163.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 16:29:56 Remove the file /archive/zip/3163.zip
+2023-04-05 16:29:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3163\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3163.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Fail;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 16:30:39 EnqueueData {
+    "filePath": "/archive/zip/3164.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3164"
+}
+2023-04-05 16:30:40 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3164.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3164"
+}
+2023-04-05 16:30:41 ReceiveResult {
+    "fileId": "3164",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3164.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 16:30:41 Remove the file /archive/zip/3164.zip
+2023-04-05 16:30:41 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3164\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3164.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 16:33:46 EnqueueData {
+    "filePath": "/archive/zip/3165.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3165"
+}
+2023-04-05 16:33:47 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3165.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3165"
+}
+2023-04-05 16:33:48 ReceiveResult {
+    "fileId": "3165",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3165.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 16:33:48 Remove the file /archive/zip/3165.zip
+2023-04-05 16:33:48 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3165\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3165.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 16:54:13 EnqueueData {
+    "filePath": "/archive/zip/3166.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3166"
+}
+2023-04-05 16:54:13 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3166.zip",
+    "userId": "388",
+    "expId": "13",
+    "fileId": "3166"
+}
+2023-04-05 16:54:16 ReceiveResult {
+    "fileId": "3166",
+    "expId": 13,
+    "userId": "388",
+    "filePath": "/archive/zip/3166.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 16:54:16 Remove the file /archive/zip/3166.zip
+2023-04-05 16:54:16 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3166\",\n    \"expId\": 13,\n    \"userId\": \"388\",\n    \"filePath\": \"/archive/zip/3166.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:16:06 EnqueueData {
+    "filePath": "/archive/zip/3167.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3167"
+}
+2023-04-05 17:16:06 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3167.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3167"
+}
+2023-04-05 17:16:07 ReceiveResult {
+    "fileId": "3167",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3167.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:16:07 Remove the file /archive/zip/3167.zip
+2023-04-05 17:16:07 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3167\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3167.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:17:56 EnqueueData {
+    "filePath": "/archive/zip/3168.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3168"
+}
+2023-04-05 17:17:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3168.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3168"
+}
+2023-04-05 17:17:59 ReceiveResult {
+    "fileId": "3168",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3168.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:17:59 Remove the file /archive/zip/3168.zip
+2023-04-05 17:17:59 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3168\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3168.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:31:04 EnqueueData {
+    "filePath": "/archive/zip/3169.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3169"
+}
+2023-04-05 17:31:04 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3169.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3169"
+}
+2023-04-05 17:31:08 ReceiveResult {
+    "fileId": "3169",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3169.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:31:08 Remove the file /archive/zip/3169.zip
+2023-04-05 17:31:08 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3169\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3169.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:33:52 EnqueueData {
+    "filePath": "/archive/zip/3170.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3170"
+}
+2023-04-05 17:33:52 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3170.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3170"
+}
+2023-04-05 17:33:56 ReceiveResult {
+    "fileId": "3170",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3170.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:33:56 Remove the file /archive/zip/3170.zip
+2023-04-05 17:33:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3170\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3170.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:35:26 EnqueueData {
+    "filePath": "/archive/zip/3171.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3171"
+}
+2023-04-05 17:35:26 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3171.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3171"
+}
+2023-04-05 17:35:30 ReceiveResult {
+    "fileId": "3171",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3171.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:35:30 Remove the file /archive/zip/3171.zip
+2023-04-05 17:35:30 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3171\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3171.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:38:28 EnqueueData {
+    "filePath": "/archive/zip/3172.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3172"
+}
+2023-04-05 17:38:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3172.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3172"
+}
+2023-04-05 17:38:31 ReceiveResult {
+    "fileId": "3172",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3172.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:38:31 Remove the file /archive/zip/3172.zip
+2023-04-05 17:38:32 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3172\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3172.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:44:25 EnqueueData {
+    "filePath": "/archive/zip/3173.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3173"
+}
+2023-04-05 17:44:26 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3173.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3173"
+}
+2023-04-05 17:44:26 ReceiveResult {
+    "fileId": "3173",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3173.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:44:26 Remove the file /archive/zip/3173.zip
+2023-04-05 17:44:26 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3173\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3173.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:44:59 EnqueueData {
+    "filePath": "/archive/zip/3174.zip",
+    "userId": "390",
+    "expId": "13",
+    "fileId": "3174"
+}
+2023-04-05 17:44:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3174.zip",
+    "userId": "390",
+    "expId": "13",
+    "fileId": "3174"
+}
+2023-04-05 17:45:02 ReceiveResult {
+    "fileId": "3174",
+    "expId": 13,
+    "userId": "390",
+    "filePath": "/archive/zip/3174.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:45:02 Remove the file /archive/zip/3174.zip
+2023-04-05 17:45:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3174\",\n    \"expId\": 13,\n    \"userId\": \"390\",\n    \"filePath\": \"/archive/zip/3174.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:46:20 EnqueueData {
+    "filePath": "/archive/zip/3175.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3175"
+}
+2023-04-05 17:46:20 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3175.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3175"
+}
+2023-04-05 17:46:24 ReceiveResult {
+    "fileId": "3175",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3175.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:46:24 Remove the file /archive/zip/3175.zip
+2023-04-05 17:46:24 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3175\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3175.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:49:48 EnqueueData {
+    "filePath": "/archive/zip/3176.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3176"
+}
+2023-04-05 17:49:48 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3176.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3176"
+}
+2023-04-05 17:49:49 ReceiveResult {
+    "fileId": "3176",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3176.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:49:49 Remove the file /archive/zip/3176.zip
+2023-04-05 17:49:49 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3176\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3176.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:50:11 EnqueueData {
+    "filePath": "/archive/zip/3177.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3177"
+}
+2023-04-05 17:50:11 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3177.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3177"
+}
+2023-04-05 17:50:12 ReceiveResult {
+    "fileId": "3177",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3177.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:50:12 Remove the file /archive/zip/3177.zip
+2023-04-05 17:50:12 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3177\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3177.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 17:50:22 EnqueueData {
+    "filePath": "/archive/zip/3178.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3178"
+}
+2023-04-05 17:50:23 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3178.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3178"
+}
+2023-04-05 17:50:26 ReceiveResult {
+    "fileId": "3178",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3178.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 17:50:26 Remove the file /archive/zip/3178.zip
+2023-04-05 17:50:26 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3178\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3178.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 18:09:28 EnqueueData {
+    "filePath": "/archive/zip/3179.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3179"
+}
+2023-04-05 18:09:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3179.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3179"
+}
+2023-04-05 18:09:29 ReceiveResult {
+    "fileId": "3179",
+    "expId": 13,
+    "userId": "373",
+    "filePath": "/archive/zip/3179.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 18:09:29 Remove the file /archive/zip/3179.zip
+2023-04-05 18:09:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3179\",\n    \"expId\": 13,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/3179.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 18:11:14 EnqueueData {
+    "filePath": "/archive/zip/3180.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3180"
+}
+2023-04-05 18:11:14 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3180.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3180"
+}
+2023-04-05 18:11:15 ReceiveResult {
+    "fileId": "3180",
+    "expId": 13,
+    "userId": "373",
+    "filePath": "/archive/zip/3180.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 18:11:15 Remove the file /archive/zip/3180.zip
+2023-04-05 18:11:15 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3180\",\n    \"expId\": 13,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/3180.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 18:14:34 EnqueueData {
+    "filePath": "/archive/zip/3181.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3181"
+}
+2023-04-05 18:14:34 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3181.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3181"
+}
+2023-04-05 18:14:38 ReceiveResult {
+    "fileId": "3181",
+    "expId": 13,
+    "userId": "373",
+    "filePath": "/archive/zip/3181.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 18:14:38 Remove the file /archive/zip/3181.zip
+2023-04-05 18:14:38 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3181\",\n    \"expId\": 13,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/3181.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 18:51:56 EnqueueData {
+    "filePath": "/archive/zip/3182.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3182"
+}
+2023-04-05 18:51:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3182.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3182"
+}
+2023-04-05 18:52:00 ReceiveResult {
+    "fileId": "3182",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3182.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 18:52:00 Remove the file /archive/zip/3182.zip
+2023-04-05 18:52:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3182\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3182.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 18:58:11 EnqueueData {
+    "filePath": "/archive/zip/3183.zip",
+    "userId": "368",
+    "expId": "13",
+    "fileId": "3183"
+}
+2023-04-05 18:58:11 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3183.zip",
+    "userId": "368",
+    "expId": "13",
+    "fileId": "3183"
+}
+2023-04-05 18:58:15 ReceiveResult {
+    "fileId": "3183",
+    "expId": 13,
+    "userId": "368",
+    "filePath": "/archive/zip/3183.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 18:58:15 Remove the file /archive/zip/3183.zip
+2023-04-05 18:58:15 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3183\",\n    \"expId\": 13,\n    \"userId\": \"368\",\n    \"filePath\": \"/archive/zip/3183.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 19:41:49 EnqueueData {
+    "filePath": "/archive/zip/3184.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3184"
+}
+2023-04-05 19:41:50 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3184.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3184"
+}
+2023-04-05 19:41:51 ReceiveResult {
+    "fileId": "3184",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3184.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 19:41:51 Remove the file /archive/zip/3184.zip
+2023-04-05 19:41:51 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3184\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3184.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 19:42:06 EnqueueData {
+    "filePath": "/archive/zip/3185.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3185"
+}
+2023-04-05 19:42:06 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3185.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3185"
+}
+2023-04-05 19:42:07 ReceiveResult {
+    "fileId": "3185",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3185.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 19:42:07 Remove the file /archive/zip/3185.zip
+2023-04-05 19:42:07 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3185\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3185.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:02:23 EnqueueData {
+    "filePath": "/archive/zip/3186.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3186"
+}
+2023-04-05 20:02:23 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3186.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3186"
+}
+2023-04-05 20:02:26 ReceiveResult {
+    "fileId": "3186",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3186.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:02:26 Remove the file /archive/zip/3186.zip
+2023-04-05 20:02:26 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3186\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3186.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:32:27 EnqueueData {
+    "filePath": "/archive/zip/3187.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3187"
+}
+2023-04-05 20:32:27 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3187.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3187"
+}
+2023-04-05 20:32:30 ReceiveResult {
+    "fileId": "3187",
+    "expId": 13,
+    "userId": "369",
+    "filePath": "/archive/zip/3187.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:32:31 Remove the file /archive/zip/3187.zip
+2023-04-05 20:32:31 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3187\",\n    \"expId\": 13,\n    \"userId\": \"369\",\n    \"filePath\": \"/archive/zip/3187.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:36:28 EnqueueData {
+    "filePath": "/archive/zip/3188.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3188"
+}
+2023-04-05 20:36:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3188.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3188"
+}
+2023-04-05 20:36:29 ReceiveResult {
+    "fileId": "3188",
+    "expId": 13,
+    "userId": "369",
+    "filePath": "/archive/zip/3188.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:36:29 Remove the file /archive/zip/3188.zip
+2023-04-05 20:36:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3188\",\n    \"expId\": 13,\n    \"userId\": \"369\",\n    \"filePath\": \"/archive/zip/3188.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:37:47 EnqueueData {
+    "filePath": "/archive/zip/3189.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3189"
+}
+2023-04-05 20:37:47 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3189.zip",
+    "userId": "369",
+    "expId": "13",
+    "fileId": "3189"
+}
+2023-04-05 20:37:50 ReceiveResult {
+    "fileId": "3189",
+    "expId": 13,
+    "userId": "369",
+    "filePath": "/archive/zip/3189.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:37:50 Remove the file /archive/zip/3189.zip
+2023-04-05 20:37:50 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3189\",\n    \"expId\": 13,\n    \"userId\": \"369\",\n    \"filePath\": \"/archive/zip/3189.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:53:28 EnqueueData {
+    "filePath": "/archive/zip/3190.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3190"
+}
+2023-04-05 20:53:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3190.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3190"
+}
+2023-04-05 20:53:28 ReceiveResult {
+    "fileId": "3190",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3190.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:53:28 Remove the file /archive/zip/3190.zip
+2023-04-05 20:53:29 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3190\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3190.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 20:54:28 EnqueueData {
+    "filePath": "/archive/zip/3191.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3191"
+}
+2023-04-05 20:54:29 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3191.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3191"
+}
+2023-04-05 20:54:32 ReceiveResult {
+    "fileId": "3191",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3191.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 20:54:32 Remove the file /archive/zip/3191.zip
+2023-04-05 20:54:32 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3191\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3191.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 21:10:28 EnqueueData {
+    "filePath": "/archive/zip/3192.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3192"
+}
+2023-04-05 21:10:29 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3192.zip",
+    "userId": "389",
+    "expId": "13",
+    "fileId": "3192"
+}
+2023-04-05 21:10:32 ReceiveResult {
+    "fileId": "3192",
+    "expId": 13,
+    "userId": "389",
+    "filePath": "/archive/zip/3192.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 21:10:32 Remove the file /archive/zip/3192.zip
+2023-04-05 21:10:32 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3192\",\n    \"expId\": 13,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3192.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 21:14:00 EnqueueData {
+    "filePath": "/archive/zip/3193.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3193"
+}
+2023-04-05 21:14:00 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3193.zip",
+    "userId": "382",
+    "expId": "13",
+    "fileId": "3193"
+}
+2023-04-05 21:14:04 ReceiveResult {
+    "fileId": "3193",
+    "expId": 13,
+    "userId": "382",
+    "filePath": "/archive/zip/3193.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 21:14:04 Remove the file /archive/zip/3193.zip
+2023-04-05 21:14:04 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3193\",\n    \"expId\": 13,\n    \"userId\": \"382\",\n    \"filePath\": \"/archive/zip/3193.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 21:37:27 EnqueueData {
+    "filePath": "/archive/zip/3194.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3194"
+}
+2023-04-05 21:37:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3194.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3194"
+}
+2023-04-05 21:37:28 ReceiveResult {
+    "fileId": "3194",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3194.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 21:37:28 Remove the file /archive/zip/3194.zip
+2023-04-05 21:37:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3194\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3194.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 21:47:29 EnqueueData {
+    "filePath": "/archive/zip/3195.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3195"
+}
+2023-04-05 21:47:29 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3195.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3195"
+}
+2023-04-05 21:47:30 ReceiveResult {
+    "fileId": "3195",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3195.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 21:47:30 Remove the file /archive/zip/3195.zip
+2023-04-05 21:47:30 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3195\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3195.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 21:49:36 EnqueueData {
+    "filePath": "/archive/zip/3196.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3196"
+}
+2023-04-05 21:49:36 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3196.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3196"
+}
+2023-04-05 21:49:39 ReceiveResult {
+    "fileId": "3196",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3196.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 21:49:39 Remove the file /archive/zip/3196.zip
+2023-04-05 21:49:39 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3196\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3196.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:14:52 EnqueueData {
+    "filePath": "/archive/zip/3197.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3197"
+}
+2023-04-05 22:14:52 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3197.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3197"
+}
+2023-04-05 22:14:55 ReceiveResult {
+    "fileId": "3197",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3197.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:14:55 Remove the file /archive/zip/3197.zip
+2023-04-05 22:14:55 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3197\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3197.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:16:23 EnqueueData {
+    "filePath": "/archive/zip/3198.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3198"
+}
+2023-04-05 22:16:23 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3198.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3198"
+}
+2023-04-05 22:16:26 ReceiveResult {
+    "fileId": "3198",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3198.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:16:26 Remove the file /archive/zip/3198.zip
+2023-04-05 22:16:26 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3198\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3198.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:19:12 EnqueueData {
+    "filePath": "/archive/zip/3199.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3199"
+}
+2023-04-05 22:19:12 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3199.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3199"
+}
+2023-04-05 22:19:15 ReceiveResult {
+    "fileId": "3199",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3199.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:19:15 Remove the file /archive/zip/3199.zip
+2023-04-05 22:19:16 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3199\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3199.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:21:59 EnqueueData {
+    "filePath": "/archive/zip/3200.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3200"
+}
+2023-04-05 22:21:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3200.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3200"
+}
+2023-04-05 22:22:03 ReceiveResult {
+    "fileId": "3200",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3200.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:22:03 Remove the file /archive/zip/3200.zip
+2023-04-05 22:22:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3200\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3200.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:26:05 EnqueueData {
+    "filePath": "/archive/zip/3201.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3201"
+}
+2023-04-05 22:26:05 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3201.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3201"
+}
+2023-04-05 22:26:09 ReceiveResult {
+    "fileId": "3201",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3201.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:26:09 Remove the file /archive/zip/3201.zip
+2023-04-05 22:26:09 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3201\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3201.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:27:45 EnqueueData {
+    "filePath": "/archive/zip/3202.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3202"
+}
+2023-04-05 22:27:45 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3202.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3202"
+}
+2023-04-05 22:27:48 ReceiveResult {
+    "fileId": "3202",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3202.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:27:48 Remove the file /archive/zip/3202.zip
+2023-04-05 22:27:48 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3202\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3202.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:30:41 EnqueueData {
+    "filePath": "/archive/zip/3203.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3203"
+}
+2023-04-05 22:30:41 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3203.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3203"
+}
+2023-04-05 22:30:44 ReceiveResult {
+    "fileId": "3203",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3203.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:30:44 Remove the file /archive/zip/3203.zip
+2023-04-05 22:30:44 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3203\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3203.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:41:10 EnqueueData {
+    "filePath": "/archive/zip/3204.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3204"
+}
+2023-04-05 22:41:10 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3204.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3204"
+}
+2023-04-05 22:41:13 ReceiveResult {
+    "fileId": "3204",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3204.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:41:13 Remove the file /archive/zip/3204.zip
+2023-04-05 22:41:13 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3204\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3204.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:46:42 EnqueueData {
+    "filePath": "/archive/zip/3205.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3205"
+}
+2023-04-05 22:46:43 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3205.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3205"
+}
+2023-04-05 22:46:46 ReceiveResult {
+    "fileId": "3205",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3205.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:46:46 Remove the file /archive/zip/3205.zip
+2023-04-05 22:46:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3205\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3205.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:49:34 EnqueueData {
+    "filePath": "/archive/zip/3206.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3206"
+}
+2023-04-05 22:49:34 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3206.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3206"
+}
+2023-04-05 22:49:37 ReceiveResult {
+    "fileId": "3206",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3206.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:49:37 Remove the file /archive/zip/3206.zip
+2023-04-05 22:49:37 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3206\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3206.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:50:22 EnqueueData {
+    "filePath": "/archive/zip/3207.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3207"
+}
+2023-04-05 22:50:22 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3207.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3207"
+}
+2023-04-05 22:50:25 ReceiveResult {
+    "fileId": "3207",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3207.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:50:25 Remove the file /archive/zip/3207.zip
+2023-04-05 22:50:25 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3207\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3207.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:51:53 EnqueueData {
+    "filePath": "/archive/zip/3208.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3208"
+}
+2023-04-05 22:51:53 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3208.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3208"
+}
+2023-04-05 22:51:56 ReceiveResult {
+    "fileId": "3208",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3208.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:51:56 Remove the file /archive/zip/3208.zip
+2023-04-05 22:51:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3208\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3208.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:52:55 EnqueueData {
+    "filePath": "/archive/zip/3209.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3209"
+}
+2023-04-05 22:52:55 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3209.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3209"
+}
+2023-04-05 22:52:58 ReceiveResult {
+    "fileId": "3209",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3209.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:52:58 Remove the file /archive/zip/3209.zip
+2023-04-05 22:52:59 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3209\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3209.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:55:24 EnqueueData {
+    "filePath": "/archive/zip/3210.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3210"
+}
+2023-04-05 22:55:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3210.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3210"
+}
+2023-04-05 22:55:28 ReceiveResult {
+    "fileId": "3210",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3210.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:55:28 Remove the file /archive/zip/3210.zip
+2023-04-05 22:55:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3210\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3210.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:57:25 EnqueueData {
+    "filePath": "/archive/zip/3211.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3211"
+}
+2023-04-05 22:57:25 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3211.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3211"
+}
+2023-04-05 22:57:28 ReceiveResult {
+    "fileId": "3211",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3211.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:57:28 Remove the file /archive/zip/3211.zip
+2023-04-05 22:57:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3211\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3211.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:58:40 EnqueueData {
+    "filePath": "/archive/zip/3212.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3212"
+}
+2023-04-05 22:58:40 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3212.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3212"
+}
+2023-04-05 22:58:43 ReceiveResult {
+    "fileId": "3212",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3212.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:58:43 Remove the file /archive/zip/3212.zip
+2023-04-05 22:58:43 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3212\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3212.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Pass;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:59:02 EnqueueData {
+    "filePath": "/archive/zip/3213.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3213"
+}
+2023-04-05 22:59:02 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3213.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3213"
+}
+2023-04-05 22:59:05 ReceiveResult {
+    "fileId": "3213",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3213.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:59:05 Remove the file /archive/zip/3213.zip
+2023-04-05 22:59:05 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3213\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3213.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:59:27 EnqueueData {
+    "filePath": "/archive/zip/3214.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3214"
+}
+2023-04-05 22:59:28 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3214.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3214"
+}
+2023-04-05 22:59:31 ReceiveResult {
+    "fileId": "3214",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3214.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 22:59:31 Remove the file /archive/zip/3214.zip
+2023-04-05 22:59:31 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3214\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3214.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 22:59:58 EnqueueData {
+    "filePath": "/archive/zip/3215.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3215"
+}
+2023-04-05 22:59:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3215.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3215"
+}
+2023-04-05 23:00:02 ReceiveResult {
+    "fileId": "3215",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3215.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:00:02 Remove the file /archive/zip/3215.zip
+2023-04-05 23:00:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3215\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3215.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:00:22 EnqueueData {
+    "filePath": "/archive/zip/3216.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3216"
+}
+2023-04-05 23:00:22 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3216.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3216"
+}
+2023-04-05 23:00:25 ReceiveResult {
+    "fileId": "3216",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3216.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:00:25 Remove the file /archive/zip/3216.zip
+2023-04-05 23:00:25 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3216\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3216.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:00:40 EnqueueData {
+    "filePath": "/archive/zip/3217.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3217"
+}
+2023-04-05 23:00:40 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3217.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3217"
+}
+2023-04-05 23:00:43 ReceiveResult {
+    "fileId": "3217",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3217.zip",
+    "status": "300",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:00:43 Remove the file /archive/zip/3217.zip
+2023-04-05 23:00:43 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3217\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3217.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Fail;   http_200_test:Fail;   http_404_test:Pass;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:01:05 EnqueueData {
+    "filePath": "/archive/zip/3218.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3218"
+}
+2023-04-05 23:01:06 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3218.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3218"
+}
+2023-04-05 23:01:09 ReceiveResult {
+    "fileId": "3218",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3218.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:01:09 Remove the file /archive/zip/3218.zip
+2023-04-05 23:01:09 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3218\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3218.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:02:59 EnqueueData {
+    "filePath": "/archive/zip/3219.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3219"
+}
+2023-04-05 23:02:59 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3219.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3219"
+}
+2023-04-05 23:03:02 ReceiveResult {
+    "fileId": "3219",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3219.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:03:03 Remove the file /archive/zip/3219.zip
+2023-04-05 23:03:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3219\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3219.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:03:35 EnqueueData {
+    "filePath": "/archive/zip/3220.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3220"
+}
+2023-04-05 23:03:35 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3220.zip",
+    "userId": "383",
+    "expId": "13",
+    "fileId": "3220"
+}
+2023-04-05 23:03:38 ReceiveResult {
+    "fileId": "3220",
+    "expId": 13,
+    "userId": "383",
+    "filePath": "/archive/zip/3220.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:03:38 Remove the file /archive/zip/3220.zip
+2023-04-05 23:03:38 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3220\",\n    \"expId\": 13,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/3220.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-05 23:18:51 EnqueueData {
+    "filePath": "/archive/zip/3221.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3221"
+}
+2023-04-05 23:18:51 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3221.zip",
+    "userId": "373",
+    "expId": "13",
+    "fileId": "3221"
+}
+2023-04-05 23:18:56 ReceiveResult {
+    "fileId": "3221",
+    "expId": 13,
+    "userId": "373",
+    "filePath": "/archive/zip/3221.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-05 23:18:56 Remove the file /archive/zip/3221.zip
+2023-04-05 23:18:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3221\",\n    \"expId\": 13,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/3221.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-06 01:20:45 EnqueueData {
+    "filePath": "/archive/zip/3222.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3222"
+}
+2023-04-06 01:20:45 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3222.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3222"
+}
+2023-04-06 01:20:46 ReceiveResult {
+    "fileId": "3222",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3222.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-06 01:20:46 Remove the file /archive/zip/3222.zip
+2023-04-06 01:20:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3222\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3222.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-06 01:24:48 EnqueueData {
+    "filePath": "/archive/zip/3223.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3223"
+}
+2023-04-06 01:24:49 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3223.zip",
+    "userId": "375",
+    "expId": "13",
+    "fileId": "3223"
+}
+2023-04-06 01:24:50 ReceiveResult {
+    "fileId": "3223",
+    "expId": 13,
+    "userId": "375",
+    "filePath": "/archive/zip/3223.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-06 01:24:50 Remove the file /archive/zip/3223.zip
+2023-04-06 01:24:50 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3223\",\n    \"expId\": 13,\n    \"userId\": \"375\",\n    \"filePath\": \"/archive/zip/3223.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 14:36:56 EnqueueData {
+    "filePath": "/archive/zip/3224.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3224"
+}
+2023-04-11 14:36:57 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3224.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3224"
+}
+2023-04-11 14:37:01 ReceiveResult {
+    "fileId": "3224",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3224.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 14:37:01 Remove the file /archive/zip/3224.zip
+2023-04-11 14:37:01 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3224\",\n    \"expId\": 13,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3224.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 14:37:44 EnqueueData {
+    "filePath": "/archive/zip/3225.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3225"
+}
+2023-04-11 14:37:44 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3225.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3225"
+}
+2023-04-11 14:37:47 ReceiveResult {
+    "fileId": "3225",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3225.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 14:37:47 Remove the file /archive/zip/3225.zip
+2023-04-11 14:37:47 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3225\",\n    \"expId\": 13,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3225.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 14:38:48 EnqueueData {
+    "filePath": "/archive/zip/3226.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3226"
+}
+2023-04-11 14:38:48 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3226.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3226"
+}
+2023-04-11 14:38:53 ReceiveResult {
+    "fileId": "3226",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3226.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 14:38:53 Remove the file /archive/zip/3226.zip
+2023-04-11 14:38:53 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3226\",\n    \"expId\": 13,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3226.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-04-11 14:39:45 EnqueueData {
+    "filePath": "/archive/zip/3227.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3227"
+}
+2023-04-11 14:39:45 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3227.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3227"
+}
+2023-04-11 14:40:40 ReceiveResult {
+    "fileId": "3227",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3227.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 14:40:40 Remove the file /archive/zip/3227.zip
+2023-04-11 14:40:41 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3227\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3227.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-04-11 14:44:42 EnqueueData {
+    "filePath": "/archive/zip/3228.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3228"
+}
+2023-04-11 14:44:42 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3228.zip",
+    "userId": "8",
+    "expId": "13",
+    "fileId": "3228"
+}
+2023-04-11 14:44:45 ReceiveResult {
+    "fileId": "3228",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3228.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 14:44:45 Remove the file /archive/zip/3228.zip
+2023-04-11 14:44:45 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3228\",\n    \"expId\": 13,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3228.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:01:24 EnqueueData {
+    "filePath": "/archive/zip/3229.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3229"
+}
+2023-04-11 15:01:24 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3229.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3229"
+}
+2023-04-11 15:01:25 ReceiveResult {
+    "fileId": "3229",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3229.zip",
+    "status": "200",
+    "statusDescr": "请在正确的位置提交作业",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:01:25 Remove the file /archive/zip/3229.zip
+2023-04-11 15:01:25 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3229\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3229.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u8bf7\u5728\u6b63\u786e\u7684\u4f4d\u7f6e\u63d0\u4ea4\u4f5c\u4e1a\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:11:27 EnqueueData {
+    "filePath": "/archive/zip/3230.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3230"
+}
+2023-04-11 15:11:27 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3230.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3230"
+}
+2023-04-11 15:12:14 ReceiveResult {
+    "fileId": "3230",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3230.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:12:14 Remove the file /archive/zip/3230.zip
+2023-04-11 15:12:14 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3230\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3230.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:13:17 EnqueueData {
+    "filePath": "/archive/zip/3231.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3231"
+}
+2023-04-11 15:13:18 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3231.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3231"
+}
+2023-04-11 15:14:04 ReceiveResult {
+    "fileId": "3231",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3231.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:14:04 Remove the file /archive/zip/3231.zip
+2023-04-11 15:14:04 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3231\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3231.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:16:55 EnqueueData {
+    "filePath": "/archive/zip/3232.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3232"
+}
+2023-04-11 15:16:56 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3232.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3232"
+}
+2023-04-11 15:17:00 ReceiveResult {
+    "fileId": "3232",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3232.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:17:00 Remove the file /archive/zip/3232.zip
+2023-04-11 15:17:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3232\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3232.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:21:04 EnqueueData {
+    "filePath": "/archive/zip/3233.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3233"
+}
+2023-04-11 15:21:04 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3233.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3233"
+}
+2023-04-11 15:21:08 ReceiveResult {
+    "fileId": "3233",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3233.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:21:08 Remove the file /archive/zip/3233.zip
+2023-04-11 15:21:08 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3233\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3233.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:23:16 EnqueueData {
+    "filePath": "/archive/zip/3234.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3234"
+}
+2023-04-11 15:23:16 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3234.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3234"
+}
+2023-04-11 15:23:25 ReceiveResult {
+    "fileId": "3234",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3234.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:23:25 Remove the file /archive/zip/3234.zip
+2023-04-11 15:23:25 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3234\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3234.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:23:37 EnqueueData {
+    "filePath": "/archive/zip/3235.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3235"
+}
+2023-04-11 15:23:38 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3235.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3235"
+}
+2023-04-11 15:23:47 ReceiveResult {
+    "fileId": "3235",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3235.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:23:47 Remove the file /archive/zip/3235.zip
+2023-04-11 15:23:47 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3235\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3235.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:24:30 EnqueueData {
+    "filePath": "/archive/zip/3236.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3236"
+}
+2023-04-11 15:24:31 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3236.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3236"
+}
+2023-04-11 15:25:23 ReceiveResult {
+    "fileId": "3236",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3236.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:25:23 Remove the file /archive/zip/3236.zip
+2023-04-11 15:25:23 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3236\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3236.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:34:06 EnqueueData {
+    "filePath": "/archive/zip/3237.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3237"
+}
+2023-04-11 15:34:07 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3237.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3237"
+}
+2023-04-11 15:34:58 ReceiveResult {
+    "fileId": "3237",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3237.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:34:58 Remove the file /archive/zip/3237.zip
+2023-04-11 15:34:58 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3237\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3237.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:38:01 EnqueueData {
+    "filePath": "/archive/zip/3238.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3238"
+}
+2023-04-11 15:38:02 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3238.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3238"
+}
+2023-04-11 15:38:02 ReceiveResult {
+    "fileId": "3238",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3238.zip",
+    "status": "200",
+    "statusDescr": "请在正确的位置提交作业",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 15:38:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3238\",\n    \"expId\": 15,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3238.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u8bf7\u5728\u6b63\u786e\u7684\u4f4d\u7f6e\u63d0\u4ea4\u4f5c\u4e1a\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 15:38:02 Remove the file /archive/zip/3238.zip
+2023-04-11 15:38:41 EnqueueData {
+    "filePath": "/archive/zip/3239.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3239"
+}
+2023-04-11 15:38:41 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3239.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3239"
+}
+2023-04-11 15:39:58 EnqueueData {
+    "filePath": "/archive/zip/3240.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3240"
+}
+2023-04-11 15:39:58 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3240.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3240"
+}
+2023-04-11 15:40:46 ReceiveResult {
+    "fileId": "3240",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3240.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 15:40:46 Remove the file /archive/zip/3240.zip
+2023-04-11 15:40:46 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3240\",\n    \"expId\": 15,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3240.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-04-11 15:41:04 EnqueueData {
+    "filePath": "/archive/zip/3241.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3241"
+}
+2023-04-11 15:41:04 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3241.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3241"
+}
+2023-04-11 15:41:52 ReceiveResult {
+    "fileId": "3241",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3241.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 15:41:52 Remove the file /archive/zip/3241.zip
+2023-04-11 15:41:52 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3241\",\n    \"expId\": 15,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3241.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-04-11 16:02:45 EnqueueData {
+    "filePath": "/archive/zip/3242.zip",
+    "userId": "8",
+    "expId": "16",
+    "fileId": "3242"
+}
+2023-04-11 16:02:45 DequeueData delivered to 192.168.0.230:9999{
+    "filePath": "/archive/zip/3242.zip",
+    "userId": "8",
+    "expId": "16",
+    "fileId": "3242"
+}
+2023-04-11 16:03:28 ReceiveResult {
+    "fileId": "3242",
+    "expId": 16,
+    "userId": "8",
+    "filePath": "/archive/zip/3242.zip",
+    "status": "100",
+    "statusDescr": "ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 16:03:28 Remove the file /archive/zip/3242.zip
+2023-04-11 16:03:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3242\",\n    \"expId\": 16,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3242.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}

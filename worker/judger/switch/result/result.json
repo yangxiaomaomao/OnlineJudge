@@ -1,4 +1,4 @@
 {
-    "status": "300", 
-    "statusDescr": "iperf_test:Fail;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   "
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   "
 }

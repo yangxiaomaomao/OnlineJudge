@@ -248,3 +248,65 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-04-11 14:38:48 connect to master
+2023-04-11 14:38:49 download finish
+2023-04-11 14:38:53 returnData {
+    "fileId": "3226",
+    "expId": 13,
+    "userId": "8",
+    "filePath": "/archive/zip/3226.zip",
+    "status": "100",
+    "statusDescr": "http_301_test:Pass;   https_200_test:Pass;   http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 14:39:45 connect to master
+2023-04-11 14:39:46 download finish
+2023-04-11 14:40:40 returnData {
+    "fileId": "3227",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3227.zip",
+    "status": "300",
+    "statusDescr": "ping_test:Fail;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 15:38:41 connect to master
+2023-04-11 15:38:42 download finish
+2023-04-11 15:39:58 connect to master
+2023-04-11 15:39:58 download finish
+2023-04-11 15:40:46 returnData {
+    "fileId": "3240",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3240.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 15:41:04 connect to master
+2023-04-11 15:41:05 download finish
+2023-04-11 15:41:52 returnData {
+    "fileId": "3241",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3241.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-04-11 16:02:45 connect to master
+2023-04-11 16:02:45 download finish
+2023-04-11 16:03:28 returnData {
+    "fileId": "3242",
+    "expId": 16,
+    "userId": "8",
+    "filePath": "/archive/zip/3242.zip",
+    "status": "100",
+    "statusDescr": "ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}

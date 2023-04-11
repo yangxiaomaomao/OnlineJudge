@@ -1,4 +1,4 @@
 {
     "status": "100",
-    "statusDescr": "ping_test:Pass;   "
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   "
 }

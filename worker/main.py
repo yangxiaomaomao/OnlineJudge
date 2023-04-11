@@ -19,10 +19,10 @@ downloadDir = "downloadDir"
 
 expIdDict = {
     13: "judger/http_server",
-    2: "judger/broadcast",
-    3: "judger/switch",
-    4: "judger/stp",
-    9: "judger/router",
+    14: "judger/broadcast",
+    15: "judger/switch",
+    16: "judger/stp",
+    17: "judger/ip_lookup",
     8: "judger/mospf",
     10: "judger/nat",
     11: "judger/tcp_echo",
@@ -108,7 +108,7 @@ def main(fileId, expId, userId, filePath):
     os.chdir(workDir)
     print(os.getcwd())
     # 执行
-    print("sudo python run.py %s %s" % (origin_cwd, targetNameFromMakefile))
+    print("sudo python3 run.py %s %s" % (origin_cwd, targetNameFromMakefile))
     child = subprocess.Popen("sudo python3 run.py %s %s" % (
         origin_cwd, targetNameFromMakefile), shell=True)
     child.wait()

@@ -2,3 +2,4 @@
 1. `git clone https://github.com/mininet/mininet.git`（没有git自行安装）
 2. 如果`python --version`显示是python3，那么直接install，否则进入mininet目录执行`PYTHON=python3 util/install.sh -fnv`（在mininet的INSTALL文件里面有所说明），过程中会自动从github安装openflow，如果不科学上网可能会卡死，自己改install.sh从gitee下载也行
 3. 判断是否安装成功：`python3`后`import mininet`，没报错就成功
+4. 直接`sudo pip3 install mininet`的话，执行`sudo mn`可能会报错，此时建议用源码安装

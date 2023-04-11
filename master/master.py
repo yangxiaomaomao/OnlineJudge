@@ -31,11 +31,11 @@ w248 = "192.168.0.248"
 w234 = "192.168.1.234"
 
 workerList = [ 
+    {"ip": master_ip, "port": 9999, "state": FREE}, # to test
     {"ip": w217, "port": 9999, "state": FREE}, 
     {"ip": w237, "port": 9999, "state": FREE}, 
     {"ip": w248, "port": 9999, "state": FREE}, 
     {"ip": w234, "port": 9999, "state": FREE},
-    {"ip": master_ip, "port": 9999, "state": BUSY}, # to test
 ]
 # receive json type task
 taskQueue = Queue(maxsize=MAX_QUEUE_SIZE)

@@ -17,7 +17,7 @@ def compareRingResult(file, standardFile, nodeNum):
     for i in range(nodeNum):
         os.system("rm -f b{}-output.txt".format(i + 1))
     os.system("rm -f {}".format("testRing%sResult.txt" % nodeNum))
-
+    print("=================Test Ring%d:%s======================" % (nodeNum,ret))
     return ret
 
 
@@ -135,7 +135,7 @@ def stpHubTest(execFile):
 if __name__ == '__main__':
     if DEBUG:
         result_path = "result"
-        exec_file = "stp"
+        exec_file = "stp-reference"
     else:
         result_path = sys.argv[1]
         exec_file = sys.argv[2]
@@ -150,6 +150,8 @@ if __name__ == '__main__':
         os.remove(exec_file)
 
     fillInInfo(scores, info)
+    
+    print(scores)
 
     with open(os.path.join(result_path, "result.json"), "w") as f:
         f.write(json.dumps(info, indent=4, ensure_ascii=False))
