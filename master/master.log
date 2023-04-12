@@ -6371,3 +6371,195 @@
 }
 2023-04-11 16:03:28 Remove the file /archive/zip/3242.zip
 2023-04-11 16:03:28 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3242\",\n    \"expId\": 16,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3242.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.230\"\n}"}
+2023-04-11 17:20:28 EnqueueData {
+    "filePath": "/archive/zip/3243.zip",
+    "userId": "8",
+    "expId": "16",
+    "fileId": "3243"
+}
+2023-04-11 17:20:29 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3243.zip",
+    "userId": "8",
+    "expId": "16",
+    "fileId": "3243"
+}
+2023-04-11 17:21:02 ReceiveResult {
+    "fileId": "3243",
+    "expId": 16,
+    "userId": "8",
+    "filePath": "/archive/zip/3243.zip",
+    "status": "100",
+    "statusDescr": "ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 17:21:02 Remove the file /archive/zip/3243.zip
+2023-04-11 17:21:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3243\",\n    \"expId\": 16,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3243.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 17:21:04 EnqueueData {
+    "filePath": "/archive/zip/3244.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3244"
+}
+2023-04-11 17:21:05 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3244.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3244"
+}
+2023-04-11 17:21:25 EnqueueData {
+    "filePath": "/archive/zip/3245.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3245"
+}
+2023-04-11 17:21:25 DequeueData delivered to 192.168.2.237:9999{
+    "filePath": "/archive/zip/3245.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3245"
+}
+2023-04-11 17:21:56 ReceiveResult {
+    "fileId": "3244",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3244.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-11 17:21:56 Remove the file /archive/zip/3244.zip
+2023-04-11 17:21:56 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3244\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3244.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-11 17:22:09 ReceiveResult {
+    "fileId": "3245",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3245.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.2.237"
+}
+2023-04-11 17:22:09 Remove the file /archive/zip/3245.zip
+2023-04-11 17:22:09 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3245\",\n    \"expId\": 15,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3245.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.2.237\"\n}"}
+2023-04-12 09:59:07 EnqueueData {
+    "filePath": "/archive/zip/3246.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3246"
+}
+2023-04-12 09:59:07 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3246.zip",
+    "userId": "8",
+    "expId": "15",
+    "fileId": "3246"
+}
+2023-04-12 09:59:51 ReceiveResult {
+    "fileId": "3246",
+    "expId": 15,
+    "userId": "8",
+    "filePath": "/archive/zip/3246.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-12 09:59:51 Remove the file /archive/zip/3246.zip
+2023-04-12 09:59:51 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3246\",\n    \"expId\": 15,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3246.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-12 10:01:11 EnqueueData {
+    "filePath": "/archive/zip/3247.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3247"
+}
+2023-04-12 10:01:12 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3247.zip",
+    "userId": "8",
+    "expId": "14",
+    "fileId": "3247"
+}
+2023-04-12 10:02:04 ReceiveResult {
+    "fileId": "3247",
+    "expId": 14,
+    "userId": "8",
+    "filePath": "/archive/zip/3247.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-12 10:02:04 Remove the file /archive/zip/3247.zip
+2023-04-12 10:02:04 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3247\",\n    \"expId\": 14,\n    \"userId\": \"8\",\n    \"filePath\": \"/archive/zip/3247.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-12 13:33:43 EnqueueData {
+    "filePath": "/archive/zip/3248.zip",
+    "userId": "389",
+    "expId": "14",
+    "fileId": "3248"
+}
+2023-04-12 13:33:44 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3248.zip",
+    "userId": "389",
+    "expId": "14",
+    "fileId": "3248"
+}
+2023-04-12 13:33:44 ReceiveResult {
+    "fileId": "3248",
+    "expId": 14,
+    "userId": "389",
+    "filePath": "/archive/zip/3248.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-12 13:33:45 Remove the file /archive/zip/3248.zip
+2023-04-12 13:33:45 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3248\",\n    \"expId\": 14,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3248.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-12 13:35:11 EnqueueData {
+    "filePath": "/archive/zip/3249.zip",
+    "userId": "389",
+    "expId": "14",
+    "fileId": "3249"
+}
+2023-04-12 13:35:11 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3249.zip",
+    "userId": "389",
+    "expId": "14",
+    "fileId": "3249"
+}
+2023-04-12 13:36:03 ReceiveResult {
+    "fileId": "3249",
+    "expId": 14,
+    "userId": "389",
+    "filePath": "/archive/zip/3249.zip",
+    "status": "100",
+    "statusDescr": "ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-12 13:36:03 Remove the file /archive/zip/3249.zip
+2023-04-12 13:36:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3249\",\n    \"expId\": 14,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3249.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ping_test:Pass;   ping_loop_test:Pass;   h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-04-12 13:38:26 EnqueueData {
+    "filePath": "/archive/zip/3250.zip",
+    "userId": "389",
+    "expId": "15",
+    "fileId": "3250"
+}
+2023-04-12 13:38:26 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/3250.zip",
+    "userId": "389",
+    "expId": "15",
+    "fileId": "3250"
+}
+2023-04-12 13:39:09 ReceiveResult {
+    "fileId": "3250",
+    "expId": 15,
+    "userId": "389",
+    "filePath": "/archive/zip/3250.zip",
+    "status": "100",
+    "statusDescr": "h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-04-12 13:39:09 Remove the file /archive/zip/3250.zip
+2023-04-12 13:39:09 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"3250\",\n    \"expId\": 15,\n    \"userId\": \"389\",\n    \"filePath\": \"/archive/zip/3250.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"h1_iperf_h2h3_test:Pass;   h2h3_iperf_h1_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
