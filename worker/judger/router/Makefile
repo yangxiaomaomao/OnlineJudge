@@ -11,7 +11,7 @@ LDFLAGS = -L.
 LIBS = -lipstack -lpthread
 
 LIBIP = libipstack.a
-LIBIP_SRCS = $(wildcard *.c)
+LIBIP_SRCS = arp.c arpcache.c icmp.c ip_base.c rtable.c rtable_internal.c device_internal.c
 LIBIP_OBJS = $(patsubst %.c,%.o,$(LIBIP_SRCS))
 
 HDRS = ./include/*.h

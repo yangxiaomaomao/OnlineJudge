@@ -22,7 +22,7 @@ expIdDict = {
     14: "judger/broadcast",
     15: "judger/switch",
     16: "judger/stp",
-    17: "judger/ip_lookup",
+    17: "judger/router",
     8: "judger/mospf",
     10: "judger/nat",
     11: "judger/tcp_echo",

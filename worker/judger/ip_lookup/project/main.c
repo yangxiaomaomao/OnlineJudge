@@ -40,7 +40,7 @@ int main(void){
 
 
     printf("========Constructing the advanced tree========\n");
-    create_tree_advance(forwardingtab);
+    create_tree_advance(forwardingtable_filename);
 
     // read test data should not be executed before create_tree, students will proceed
     // searching tree in the create tree func
@@ -57,7 +57,8 @@ int main(void){
     long advanced_interval = get_interval(tv_start,tv_end);
     
     printf("=============dump result============\n");
-    printf("basic_pass:%d\nbasic_total_lookup_time:%ldus\nadvance_pass:%d\nadvance_total_lookup_time:%ldus\n",basic_pass,basic_interval,advance_pass,advance_interval);
+    printf("basic_pass:%d\nbasic_lookup_time:%ldus\nadvance_pass:%d\nadvance_lookup_time:%ldus\n", \
+            basic_pass,basic_interval,advance_pass,advance_interval);
     
     return 0;
 }
