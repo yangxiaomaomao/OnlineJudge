@@ -12,8 +12,6 @@ LIBS = -lpthread
 HDRS = ./include/*.h
 
 SRCS = $(wildcard *.c)
-# SRCS = arp.c arpcache.c icmp.c ip.c main.c packet.c rtable.c rtable_internal.c \
-# 	   tcp.c tcp_apps.c tcp_in.c tcp_out.c tcp_sock.c tcp_timer.c utils.c
 
 OBJS = $(patsubst %.c,%.o,$(SRCS))
 

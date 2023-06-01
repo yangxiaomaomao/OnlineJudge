@@ -11,7 +11,7 @@ from tools.topos import TCPTopo
 from tools.tools import fillInInfo
 
 DEBUG = 0
-send_time = 8
+send_time = 10
 client_file = "client-input.dat"
 server_file = "server-output.dat"
 
@@ -40,6 +40,8 @@ def CSendCTest(execFile):
     net.start()
 
     h1.cmd("./%s server 10001 &" % execFile)
+    
+    time.sleep(0.5)
 
     h2.cmd("./%s client 10.0.0.1 10001 &" % execFile)
 
@@ -57,13 +59,14 @@ def CSendCTest(execFile):
 
 # server python
 
-
 def CSendPythonTest(execFile):
     net, h1, h2 = generateBulkTopo(TCPTopo())
 
     net.start()
 
-    h1.cmd("python bulk.py server 10001 &")
+    h1.cmd("python3 bulk.py server 10001 &")
+    
+    time.sleep(0.5)
 
     h2.cmd("./%s client 10.0.0.1 10001 &" % execFile)
 
@@ -86,6 +89,8 @@ def pythonSendCTest(execFile):
     net.start()
 
     h1.cmd("./%s server 10001 &" % execFile)
+    
+    time.sleep(0.5)
     #CLI(net)
     h2.cmd("python bulk.py client 10.0.0.1 10001 &")
 
@@ -95,24 +100,25 @@ def pythonSendCTest(execFile):
 
     try:
         ret = filecmp.cmp(client_file, server_file)
-        if ret == False:
-            print(False)
-            sys.exit(0)
+        # if ret == False:
+        #     sys.exit(0)
         os.remove(server_file)
         return ret
     except Exception as ex:
-        print("cdscds",ex)
         return False
+    
 def pythonSendPythonTest(execFile):
     net, h1, h2 = generateBulkTopo(TCPTopo())
 
     net.start()
 
-    h1.cmd("python bulk.py server 10001 &")
+    h1.cmd("python3 bulk.py server 10001 &")
+    
+    time.sleep(0.5)
 
-    h2.cmd("python bulk.py client 10.0.0.1 10001 &")
+    h2.cmd("python3 bulk.py client 10.0.0.1 10001 &")
 
-    time.sleep(10)  # waiting server recv
+    time.sleep(3)  # waiting server recv
 
     net.stop()
 
@@ -142,16 +148,17 @@ if __name__ == "__main__":
     # h2: client
     scores = {
         "CSendC": CSendCTest(exec_file),
-        "CSendPython": CSendCTest(exec_file),
+        "CSendPython": CSendPythonTest(exec_file),
         "pythonSendC": CSendCTest(exec_file),
-        #"pythocascascascas": pythonSendPythonTest(exec_file)
+        #"pythonSendPython": pythonSendPythonTest(exec_file)
     }
     if not DEBUG:
         os.remove(exec_file)
-    if scores["CSendC"] == 1 or scores["CSendPython"] == 1 or scores["pythonSendC"] == 1:
-        scores["CSendC"] = 1
-        scores["CSendPython"] = 1
-        scores["pythonSendC"] = 1
+    print(scores)
+    # if scores["CSendC"] == 1 or scores["CSendPython"] == 1 or scores["pythonSendC"] == 1:
+    #     scores["CSendC"] = 1
+    #     scores["CSendPython"] = 1
+    #     scores["pythonSendC"] = 1
     fillInInfo(scores, info)
 
     with open(os.path.join(result_path, "result.json"), "w") as f:

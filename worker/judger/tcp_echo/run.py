@@ -78,9 +78,12 @@ def CEchoPythonTest(execFile):
 
     net.start()
 
+    # CLI(net)
+    # net.stop()
+    # return False
     h1.cmd("./%s server 10001 &" % execFile)
 
-    h2.cmd("python tcp_echo.py client 10.0.0.1 10001 > %s &" % client_res)
+    h2.cmd("python3 tcp_echo.py client 10.0.0.1 10001 > %s &" % client_res)
 
     time.sleep(5)
 
@@ -92,7 +95,9 @@ def CEchoPythonTest(execFile):
         return False
 
     cmp_data = [item[:len(res[0])] for item in uniform_cmp_data[:len(res)]]
-
+    print("res",res)
+    print("cmp_data",cmp_data)
+    
     return res == cmp_data
 # server Python
 
@@ -101,8 +106,14 @@ def pythonEchoCTest(execFile):
     net, h1, h2 = generateEchoTopo(TCPTopo())
 
     net.start()
+    
+    # CLI(net)
+    
+    # net.stop()
+    
+    # return False
 
-    h1.cmd("python tcp_echo.py server 10001 &")
+    h1.cmd("python3 tcp_echo.py server 10001 &")
     
     res = h2.cmd("./%s client 10.0.0.1 10001 > %s &" % (execFile, client_res))
 

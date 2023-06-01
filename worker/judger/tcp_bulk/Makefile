@@ -1,4 +1,4 @@
-TARGET = tcp_bulkkk
+TARGET = tcp_bulk
 all: $(TARGET)
 
 CC = gcc

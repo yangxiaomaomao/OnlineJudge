@@ -2,12 +2,12 @@ TARGET = ip_lookup
 
 all: $(TARGET)
 
-cp /home/yangxiaomao/OnlineJudge/worker/judger/ip_lookup/project/main.c .
+MAIN_SRC = /home/yangxiaomao/worker/judger/ip_lookup/project/main.c
 
-SRCS = tree.c util.c main.c
+FUNC_SRCS = tree.c util.c
 
 $(TARGET): $(SRCS)
-	gcc -Wall -g $(SRCS) -o $(TARGET) -I./include
+	gcc -Wall -g $(MAIN_SRC) $(FUNC_SRCS) -o $(TARGET) -I./include
 
 clean:
 	@rm $(TARGET)

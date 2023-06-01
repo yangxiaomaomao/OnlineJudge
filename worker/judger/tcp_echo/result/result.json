@@ -1,4 +1,4 @@
 {
-    "status": "300", 
-    "statusDescr": "pythonEchoC_test:Fail;   "
+    "status": "100",
+    "statusDescr": "pythonEchoC_test:Pass;   "
 }

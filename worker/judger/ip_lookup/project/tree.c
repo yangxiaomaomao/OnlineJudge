@@ -55,15 +55,16 @@ void insert_node(node_t* root,uint32_t ip,uint32_t mask_len,uint32_t port){
 
 void get_ip_info(FILE* fp,uint32_t* ip,uint32_t* mask_len,uint32_t* port){
     uint32_t IP1 = 0,IP2 = 0,IP3 = 0,IP4 = 0;
-    fscanf(fp,"%u.%u.%u.%u %d %d",&IP1,&IP2,&IP3,&IP4,mask_len,port);
+    fscanf(fp,"%u.%u.%u.%u %d %d\n",&IP1,&IP2,&IP3,&IP4,mask_len,port);
     *ip = MASK(IP1,24) | MASK(IP2,16) | MASK(IP3,8) | MASK(IP4,0);
 }
 
 void create_tree(const char* forward_file){
     FILE* fp = fopen(forward_file,"r");
     uint32_t ip,mask_len,port;
-    
+
     node_t* new_node = init_node();
+
     for(int i = 0;i < TRAIN_SIZE;i++){
         get_ip_info(fp,&ip,&mask_len,&port);
         insert_node(new_node,ip,mask_len,port);

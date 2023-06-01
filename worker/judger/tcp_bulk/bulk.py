@@ -1,9 +1,7 @@
-#!/usr/bin/python2
-
 import sys
 import string
 import socket
-from time import sleep
+import time
 
 def server(port):
     s = socket.socket()
@@ -13,7 +11,7 @@ def server(port):
     s.listen(3)
     
     cs, addr = s.accept()
-    print addr
+    print(addr)
 
     filename = 'server-output.dat'
     fp = open(filename, 'a')
@@ -21,7 +19,7 @@ def server(port):
     while True:
         data = cs.recv(1000)
         if data:
-            fp.write(data)
+            fp.write(data.decode())
         else:
             break
     
@@ -39,8 +37,7 @@ def client(ip, port):
     while True:
         data = fp.read(1000)
         if(data != ''):
-            s.send(data)
-            sleep(0.05)
+            s.send(data.encode())
         else:
             break
     
