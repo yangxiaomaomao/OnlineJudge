@@ -1,0 +1,27 @@
+TARGET = ipstack
+
+all: $(TARGET)
+
+CC = gcc
+LD = ar rcs
+
+CFLAGS = -g -Wall -Iinclude -fPIC
+
+LIBS = -lpthread
+
+HDRS = ./include/*.h
+
+SRCS = arp.c arpcache.c icmp.c ip.c packet.c rtable.c rtable_internal.c
+OBJS = $(patsubst %.c,%.o,$(SRCS))
+
+$(OBJS) : %.o : %.c include/*.h
+	$(CC) -c $(CFLAGS) $< -o $@
+
+$(TARGET): $(OBJS)
+	$(LD) lib$(TARGET).a $(OBJS)
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+# tags: $(SRCS) $(HDRS)
+# 	ctags $(SRCS) $(HDRS)

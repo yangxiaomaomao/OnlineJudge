@@ -1,9 +1,12 @@
+#!/usr/bin/python3
+
 import os
 import sys
 import socket
 import struct
 import fcntl
-import BaseHTTPServer
+
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 INDEX_PAGE_FMT = '''
 <!doctype html> 
@@ -25,9 +28,9 @@ def my_ip():
         return 'N/A'
     SIOCGIFADDR = 0x8915
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    return socket.inet_ntoa(fcntl.ioctl(s.fileno(), SIOCGIFADDR, struct.pack('256s', intfs[0][:15]))[20:24])
+    return socket.inet_ntoa(fcntl.ioctl(s.fileno(), SIOCGIFADDR, struct.pack('256s', intfs[0][:15].encode('utf-8')))[20:24])
 
-class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
+class S(BaseHTTPRequestHandler):
     def do_GET(self):
         local_ip = my_ip()
         remote_ip = self.client_address[0]
@@ -40,10 +43,16 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
         self.send_header("Content-Length", str(len(page)))
         self.end_headers()
 
-        self.wfile.write(page)
+        self.wfile.write(page.encode('utf-8'))
 
-def test(HandlerClass = SimpleHTTPRequestHandler, ServerClass = BaseHTTPServer.HTTPServer):
-    BaseHTTPServer.test(HandlerClass, ServerClass)
+def run(server_class=HTTPServer, handler_class=S, port=8000):
+    server_address = ('', port)
+    httpd = server_class(server_address, handler_class)
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        pass
+    httpd.server_close()
 
 if __name__ == '__main__':
-    test()
+    run()

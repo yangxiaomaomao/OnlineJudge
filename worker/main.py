@@ -26,7 +26,8 @@ expIdDict = {
     18: "judger/mospf",
     19: "judger/ip_lookup",
     20: "judger/tcp_echo",
-    21: "judger/tcp_bulk"
+    21: "judger/tcp_bulk",
+    22: "judger/nat"
 }
 
 

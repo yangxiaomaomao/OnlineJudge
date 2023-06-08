@@ -109,7 +109,7 @@ def h3ServerNATTest(execFile):
 
     n1.cmd("./%s exp1.conf &" % execFile)
 
-    h3.cmd("python -B http_server.py &")
+    h3.cmd("python3 http_server.py &")
 
     h1.cmd("wget http://159.226.39.123:8000 -O %s" % h1_from_h3)
 
@@ -136,9 +136,9 @@ def h1h2ServerNATTest(execFile):
 
     n1.cmd("./%s exp2.conf &" % execFile)
 
-    h1.cmd("python -B http_server.py &")
+    h1.cmd("python3 http_server.py &")
 
-    h2.cmd("python -B http_server.py &")
+    h2.cmd("python3 http_server.py &")
 
     h3.cmd("wget http://159.226.39.43:8000 -O %s" % h3_from_h1)
 
@@ -170,7 +170,7 @@ def NATNATTest(execFile):
 
     n2.cmd("./%s exp3.conf &" % execFile)
 
-    h2.cmd("python -B http_server.py &")
+    h2.cmd("python3 http_server.py &")
 
     h1.cmd("wget http://159.226.39.123:8000 -O %s" % h1_from_h2)
 
@@ -190,7 +190,7 @@ def NATNATTest(execFile):
 if __name__ == "__main__":
     if DEBUG:
         result_path = "result"
-        exec_file = "nat"
+        exec_file = "nat-reference"
     else:
         result_path = sys.argv[1]
         exec_file = sys.argv[2]
@@ -207,6 +207,6 @@ if __name__ == "__main__":
         os.remove(exec_file)
 
     fillInInfo(scores, info)
-
+    
     with open(os.path.join(result_path, "result.json"), "w") as f:
         f.write(json.dumps(info, indent=4, ensure_ascii=False))

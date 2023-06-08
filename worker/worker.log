@@ -1680,3 +1680,149 @@
     "test": null,
     "ip": "192.168.0.230"
 }
+2023-06-01 16:16:01 connect to master
+2023-06-01 16:16:01 download finish
+2023-06-01 16:16:06 returnData {
+    "fileId": "4718",
+    "expId": 19,
+    "userId": "8",
+    "filePath": "/archive/zip/4718.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Pass;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:16:54 connect to master
+2023-06-01 16:16:54 download finish
+2023-06-01 16:16:58 returnData {
+    "fileId": "4719",
+    "expId": 19,
+    "userId": "8",
+    "filePath": "/archive/zip/4719.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Pass;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:17:28 connect to master
+2023-06-01 16:17:28 download finish
+2023-06-01 16:17:33 returnData {
+    "fileId": "4720",
+    "expId": 19,
+    "userId": "8",
+    "filePath": "/archive/zip/4720.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Pass;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:18:20 connect to master
+2023-06-01 16:18:20 download finish
+2023-06-01 16:18:20 returnData {
+    "fileId": "4721",
+    "expId": 18,
+    "userId": "386",
+    "filePath": "/archive/zip/4721.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:27:31 connect to master
+2023-06-01 16:27:32 download finish
+2023-06-01 16:27:32 returnData {
+    "fileId": "4722",
+    "expId": 18,
+    "userId": "386",
+    "filePath": "/archive/zip/4722.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:30:11 connect to master
+2023-06-01 16:30:12 download finish
+2023-06-01 16:30:48 returnData {
+    "fileId": "4723",
+    "expId": 21,
+    "userId": "366",
+    "filePath": "/archive/zip/4723.zip",
+    "status": "300",
+    "statusDescr": "CSendC_test:Fail;   CSendPython_test:Fail;   pythonSendC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:52:09 connect to master
+2023-06-01 16:52:10 download finish
+2023-06-01 16:54:13 returnData {
+    "fileId": "4724",
+    "expId": 18,
+    "userId": "372",
+    "filePath": "/archive/zip/4724.zip",
+    "status": "100",
+    "statusDescr": "switch_topo_test:Pass;   simple_ping_test:Pass;   unlink_ping_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:55:03 connect to master
+2023-06-01 16:55:03 download finish
+2023-06-01 16:55:07 returnData {
+    "fileId": "4726",
+    "expId": 19,
+    "userId": "8",
+    "filePath": "/archive/zip/4726.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Pass;   advanced_pass_test:Pass;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:57:00 connect to master
+2023-06-01 16:57:01 download finish
+2023-06-01 16:57:01 returnData {
+    "fileId": "4727",
+    "expId": 18,
+    "userId": "386",
+    "filePath": "/archive/zip/4727.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-01 16:58:07 connect to master
+2023-06-01 16:58:07 download finish
+2023-06-01 16:58:07 returnData {
+    "fileId": "4728",
+    "expId": 18,
+    "userId": "386",
+    "filePath": "/archive/zip/4728.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-08 10:13:58 connect to master
+2023-06-08 10:13:59 download finish
+2023-06-08 10:14:42 connect to master
+2023-06-08 10:14:42 download finish
+2023-06-08 10:14:57 returnData {
+    "fileId": "5103",
+    "expId": 22,
+    "userId": "8",
+    "filePath": "/archive/zip/5103.zip",
+    "status": "100",
+    "statusDescr": "SNAT_test:Pass;   DNAT_test:Pass;   SDNAT_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}
+2023-06-08 10:15:09 connect to master
+2023-06-08 10:15:10 download finish
+2023-06-08 10:15:22 returnData {
+    "fileId": "5104",
+    "expId": 22,
+    "userId": "8",
+    "filePath": "/archive/zip/5104.zip",
+    "status": "100",
+    "statusDescr": "SNAT_test:Pass;   DNAT_test:Pass;   SDNAT_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.230"
+}

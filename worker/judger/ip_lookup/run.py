@@ -40,7 +40,7 @@ if __name__ == '__main__':
     try:
         with open(res_file,"r") as f:
             res = f.readline().split(",")
-
+        print(res)
         os.remove(res_file)
         
         basic_pass = int(res[0])
