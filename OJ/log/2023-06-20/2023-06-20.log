@@ -1,0 +1,438 @@
+2023/06/20-08:58:54 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-08:58:56 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-08:58:56 ERROR JWT expired at 2023-06-17T21:53:50Z. Current time: 2023-06-20T08:58:56Z, a difference of 212706365 milliseconds.  Allowed clock skew: 0 milliseconds. - c.s.o.c.exception.MyExceptionHandler - [http-nio-127.0.0.1-8080-exec-7]
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-06-17T21:53:50Z. Current time: 2023-06-20T08:58:56Z, a difference of 212706365 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.sea.onlinejudge.common.utils.JwtTokenUtil.getClaims(JwtTokenUtil.java:70)
+	at com.sea.onlinejudge.common.utils.JwtTokenUtil.getContestName(JwtTokenUtil.java:113)
+	at com.sea.onlinejudge.controller.ContestController.checkToken(ContestController.java:568)
+	at jdk.internal.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.sea.onlinejudge.common.filter.MyFilter.doFilter(MyFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023/06/20-08:58:56 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-08:59:03 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-08:59:03 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-08:59:03 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-08:59:03 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-08:59:49 INFO  this is myFilter, url: /OnlineJudge/code/uploadFile - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-08:59:49 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-08:59:49 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-08:59:49 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-08:59:50 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-08:59:50 INFO  this is myFilter, url: /OnlineJudge/contest/setStatus - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-08:59:51 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-08:59:51 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-08:59:51 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-08:59:51 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-08:59:51 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-08:59:51 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-08:59:54 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-08:59:54 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:02:26 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:02:26 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:02:28 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:02:28 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:02:34 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:02:34 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:02:34 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:02:34 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:04:51 ERROR 用户错误:2020K8009908029,原因:null - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:04:51 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:04:59 INFO  this is myFilter, url: /OnlineJudge/code/uploadFile - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:04:59 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:04:59 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:04:59 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:04:59 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:00 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:05:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:05:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:05:00 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:05:00 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:00 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:01 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:05:01 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:05:01 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:05:01 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:05:01 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:01 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:02 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:05:02 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:05:02 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:05:02 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:05:02 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:02 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:04 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:05:04 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:05:04 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:05:04 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:05:04 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:04 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:05 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:05:05 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:05:05 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:05:05 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:05:05 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:05 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:05 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:05:06 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:05:06 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:05:06 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:05:06 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:06 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:17 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:17 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:17 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:05:17 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:05:18 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:18 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:05:18 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:05:18 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:05:18 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:05:18 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:05:18 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:18 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:05:33 INFO  this is myFilter, url: /OnlineJudge/contest/setStatus - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:06:00 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:06:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:06:00 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:06:00 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:00 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:03 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:06:03 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:06:09 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:09 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:06:09 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:06:09 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:06:13 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:14 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:06:14 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:06:18 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:06:18 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:18 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:06:18 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:06:24 INFO  this is myFilter, url: /OnlineJudge/code/uploadFile - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:24 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:06:24 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:06:25 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:25 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:29 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:06:30 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:06:30 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:06:30 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:30 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:06:30 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:06:30 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:30 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:33 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:06:38 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:06:38 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:44 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:06:44 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:06:44 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:06:44 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:46 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:06:46 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:06:46 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:46 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:48 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:06:50 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:06:50 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:06:54 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:06:54 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:06:54 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:06:54 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:06:56 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:06:56 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:06:56 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:56 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:06:58 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:00 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:01 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:01 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:05 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:05 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:05 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:05 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:07:05 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:05 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:08 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:08 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:08 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:08 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:08 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:08 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:08 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:09 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:09 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:09 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:07:09 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:09 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:11 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:11 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:13 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:13 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:14 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:17 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:17 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:23 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:23 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:07:23 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:23 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:25 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:25 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:25 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:25 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:27 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:28 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:28 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:30 INFO  this is myFilter, url: /OnlineJudge/contest/setStatus - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:33 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:33 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:33 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:33 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:34 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:34 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:34 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:34 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:35 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:36 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:36 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:07:41 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:41 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:41 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:41 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:42 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:42 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:42 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:42 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:44 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:45 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:45 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:07:49 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:07:49 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:07:49 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:07:49 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:07:50 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:07:50 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:07:50 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:50 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:07:53 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:07:54 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:07:54 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:08:00 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:08:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:08:00 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:08:00 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:08:01 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:08:01 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:08:01 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:01 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:05 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:08:06 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:08:06 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:08:11 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:08:11 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:08:11 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:08:11 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:08:12 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:08:12 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:08:12 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:12 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:14 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:08:15 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:08:15 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:08:20 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:08:20 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:08:20 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:08:20 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:08:22 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:08:22 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:08:22 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:22 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:23 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:08:24 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:08:24 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:08:28 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:08:28 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:08:28 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:08:29 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:08:30 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:08:30 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:08:30 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:30 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:31 INFO  this is myFilter, url: /OnlineJudge/contest/contestList - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:08:32 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:08:32 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:08:36 INFO  this is myFilter, url: /OnlineJudge/contest/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:08:36 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:08:36 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:08:36 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:08:37 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:08:37 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:08:38 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:08:38 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:09:06 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:09:06 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:10:45 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:10:45 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:10:45 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:10:45 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:10:46 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:10:46 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:12:09 ERROR 用户错误:2020K8009908029,原因:null - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:12:09 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:12:22 INFO  this is myFilter, url: /OnlineJudge/code/uploadFile - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:12:22 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:12:22 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:12:22 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:12:22 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:12:23 INFO  this is myFilter, url: /OnlineJudge/contest/setStatus - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-09:12:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-09:12:24 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-09:12:24 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-09:12:24 INFO  this is myFilter, url: /OnlineJudge/contest/status - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-09:12:24 INFO  this is myFilter, url: /OnlineJudge/websocket/2020K8009908029 - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:24 INFO  用户连接:2020K8009908029 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-09:12:28 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-09:12:28 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-09:17:24 ERROR 用户错误:2020K8009908029,原因:null - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-09:17:24 INFO  2020K8009908029用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-10:18:05 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-10:18:05 ERROR JWT expired at 2023-06-20T03:57:27Z. Current time: 2023-06-20T10:18:05Z, a difference of 22838047 milliseconds.  Allowed clock skew: 0 milliseconds. - c.s.o.c.exception.MyExceptionHandler - [http-nio-127.0.0.1-8080-exec-8]
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-06-20T03:57:27Z. Current time: 2023-06-20T10:18:05Z, a difference of 22838047 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.sea.onlinejudge.common.utils.JwtTokenUtil.getClaims(JwtTokenUtil.java:70)
+	at com.sea.onlinejudge.common.interceptor.AuthenticationInterceptor.preHandle(AuthenticationInterceptor.java:43)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:136)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1033)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.sea.onlinejudge.common.filter.MyFilter.doFilter(MyFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023/06/20-10:18:05 INFO  this is myFilter, url: /OnlineJudge/common/verifyCode - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-10:18:09 INFO  this is myFilter, url: /OnlineJudge/user/login - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-10:18:09 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-10:18:11 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-10:18:11 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-10:18:14 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-10:18:14 INFO  this is myFilter, url: /OnlineJudge/contest/expResult - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-10:18:17 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-10:18:18 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-10:18:20 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-10:18:20 INFO  this is myFilter, url: /OnlineJudge/admin/user/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-10:18:21 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-10:18:21 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-10:18:24 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-10:19:13 INFO  this is myFilter, url: /OnlineJudge/admin/contest/add - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-10:19:13 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-10:19:13 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-10:19:16 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-10:19:18 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-10:19:18 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-10:19:20 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-10:19:20 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-10:19:23 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-10:19:23 INFO  this is myFilter, url: /OnlineJudge/contest/expResult - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-10:19:25 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]
+2023/06/20-10:19:25 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-12]
+2023/06/20-10:19:27 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-6]
+2023/06/20-10:19:32 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-2]
+2023/06/20-10:19:32 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/06/20-10:19:34 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-8]
+2023/06/20-10:19:34 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
+2023/06/20-10:19:36 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-13]
+2023/06/20-10:23:29 INFO  this is myFilter, url: /OnlineJudge/admin/contest/update - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-5]
+2023/06/20-10:23:29 INFO  this is myFilter, url: /OnlineJudge/user/powers - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-11]
+2023/06/20-10:23:29 INFO  this is myFilter, url: /OnlineJudge/admin/contest/list - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-7]

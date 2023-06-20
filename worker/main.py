@@ -27,7 +27,8 @@ expIdDict = {
     19: "judger/ip_lookup",
     20: "judger/tcp_echo",
     21: "judger/tcp_bulk",
-    22: "judger/nat"
+    22: "judger/nat",
+    23: "judger/tcp_loss"
 }
 
 
