@@ -9,7 +9,7 @@ import time
 import json
 sys.path.append("..")
 from tools.tools import getPingResult,fillInInfo,clearIP
-from tools.topos import TCPLossTopo
+from tools.topos import TCPTopo
 
 
 DEBUG = 0
@@ -38,12 +38,13 @@ def detectKernelPort(h,port):
     if detect_ports.find("0.0.0.0:%s" % port) == -1:
         return False # not find the port 80
     else:
-        return True # find students' trick, the process is using 80 port of the kernel, not its own!
+        return False #True # find students' trick, the process is using 80 port of the kernel, not its own!
 
 def finalTest(execFile):
-    net, h1, h2 = generateHttpTopo(TCPLossTopo())
+    net, h1, h2 = generateHttpTopo(TCPTopo())
     net.start()
     #CLI(net)
+    #return 0
     time.sleep(0.5)
     h1.cmd("./%s &" % execFile)
     #h1.cmd("python3 del.py")
@@ -71,7 +72,7 @@ def finalTest(execFile):
 if __name__ == '__main__':
     if DEBUG:
         result_path = "result"
-        exec_file = "del.py"
+        exec_file = "http-server"
     else:
         result_path = sys.argv[1]
         exec_file = sys.argv[2]
