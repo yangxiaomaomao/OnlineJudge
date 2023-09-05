@@ -88857,3 +88857,505 @@
 }
 2023-07-03 16:25:02 Remove the file /archive/zip/6725.zip
 2023-07-03 16:25:02 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6725\",\n    \"expId\": 23,\n    \"userId\": \"378\",\n    \"filePath\": \"/archive/zip/6725.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CSendC_test:Fail;   CSendPython_test:Fail;   pythonSendC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-11 17:40:16 EnqueueData {
+    "filePath": "/archive/zip/6726.zip",
+    "userId": "381",
+    "expId": "20",
+    "fileId": "6726"
+}
+2023-07-11 17:40:17 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6726.zip",
+    "userId": "381",
+    "expId": "20",
+    "fileId": "6726"
+}
+2023-07-11 17:40:35 ReceiveResult {
+    "fileId": "6726",
+    "expId": 20,
+    "userId": "381",
+    "filePath": "/archive/zip/6726.zip",
+    "status": "100",
+    "statusDescr": "CEchoC_test:Pass;   CEchoPython_test:Pass;   pythonEchoC_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-11 17:40:35 Remove the file /archive/zip/6726.zip
+2023-07-11 17:40:35 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6726\",\n    \"expId\": 20,\n    \"userId\": \"381\",\n    \"filePath\": \"/archive/zip/6726.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"CEchoC_test:Pass;   CEchoPython_test:Pass;   pythonEchoC_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-12 14:55:37 EnqueueData {
+    "filePath": "/archive/zip/6727.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6727"
+}
+2023-07-12 14:55:37 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6727.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6727"
+}
+2023-07-12 14:55:38 ReceiveResult {
+    "fileId": "6727",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6727.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-12 14:55:38 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6727\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6727.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-12 14:55:38 Remove the file /archive/zip/6727.zip
+2023-07-15 09:55:35 EnqueueData {
+    "filePath": "/archive/zip/6728.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6728"
+}
+2023-07-15 09:55:35 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6728.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6728"
+}
+2023-07-15 09:55:36 ReceiveResult {
+    "fileId": "6728",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6728.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 09:55:36 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6728\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6728.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 09:55:36 Remove the file /archive/zip/6728.zip
+2023-07-15 10:27:35 EnqueueData {
+    "filePath": "/archive/zip/6729.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6729"
+}
+2023-07-15 10:27:36 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6729.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6729"
+}
+2023-07-15 10:27:37 ReceiveResult {
+    "fileId": "6729",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6729.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 10:27:37 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6729\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6729.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 10:27:37 Remove the file /archive/zip/6729.zip
+2023-07-15 10:53:31 EnqueueData {
+    "filePath": "/archive/zip/6730.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6730"
+}
+2023-07-15 10:53:31 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6730.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6730"
+}
+2023-07-15 10:53:34 ReceiveResult {
+    "fileId": "6730",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6730.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 10:53:34 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6730\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6730.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 10:53:34 Remove the file /archive/zip/6730.zip
+2023-07-15 10:53:39 EnqueueData {
+    "filePath": "/archive/zip/6731.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6731"
+}
+2023-07-15 10:53:39 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6731.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6731"
+}
+2023-07-15 10:53:42 ReceiveResult {
+    "fileId": "6731",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6731.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 10:53:42 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6731\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6731.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 10:53:42 Remove the file /archive/zip/6731.zip
+2023-07-15 11:01:31 EnqueueData {
+    "filePath": "/archive/zip/6732.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6732"
+}
+2023-07-15 11:01:31 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6732.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6732"
+}
+2023-07-15 11:01:35 ReceiveResult {
+    "fileId": "6732",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6732.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 11:01:35 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6732\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6732.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 11:01:35 Remove the file /archive/zip/6732.zip
+2023-07-15 11:05:38 EnqueueData {
+    "filePath": "/archive/zip/6733.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6733"
+}
+2023-07-15 11:05:38 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6733.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6733"
+}
+2023-07-15 11:05:42 ReceiveResult {
+    "fileId": "6733",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6733.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 11:05:42 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6733\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6733.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 11:05:42 Remove the file /archive/zip/6733.zip
+2023-07-15 11:09:56 EnqueueData {
+    "filePath": "/archive/zip/6734.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6734"
+}
+2023-07-15 11:09:56 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6734.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6734"
+}
+2023-07-15 11:10:01 ReceiveResult {
+    "fileId": "6734",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6734.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 11:10:01 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6734\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6734.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 11:10:01 Remove the file /archive/zip/6734.zip
+2023-07-15 11:12:17 EnqueueData {
+    "filePath": "/archive/zip/6735.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6735"
+}
+2023-07-15 11:12:17 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6735.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6735"
+}
+2023-07-15 11:12:35 ReceiveResult {
+    "fileId": "6735",
+    "expId": 20,
+    "userId": "383",
+    "filePath": "/archive/zip/6735.zip",
+    "status": "300",
+    "statusDescr": "CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 11:12:35 Remove the file /archive/zip/6735.zip
+2023-07-15 11:12:35 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6735\",\n    \"expId\": 20,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6735.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 11:17:58 EnqueueData {
+    "filePath": "/archive/zip/6736.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6736"
+}
+2023-07-15 11:17:59 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6736.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6736"
+}
+2023-07-15 11:18:02 ReceiveResult {
+    "fileId": "6736",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6736.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 11:18:03 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6736\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6736.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 11:18:03 Remove the file /archive/zip/6736.zip
+2023-07-15 15:44:57 EnqueueData {
+    "filePath": "/archive/zip/6737.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6737"
+}
+2023-07-15 15:44:57 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6737.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6737"
+}
+2023-07-15 15:45:15 ReceiveResult {
+    "fileId": "6737",
+    "expId": 20,
+    "userId": "383",
+    "filePath": "/archive/zip/6737.zip",
+    "status": "300",
+    "statusDescr": "CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 15:45:15 Remove the file /archive/zip/6737.zip
+2023-07-15 15:45:15 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6737\",\n    \"expId\": 20,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6737.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 17:07:34 EnqueueData {
+    "filePath": "/archive/zip/6738.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6738"
+}
+2023-07-15 17:07:34 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6738.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6738"
+}
+2023-07-15 17:07:38 ReceiveResult {
+    "fileId": "6738",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6738.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-15 17:07:38 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6738\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6738.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-15 17:07:38 Remove the file /archive/zip/6738.zip
+2023-07-16 09:11:56 EnqueueData {
+    "filePath": "/archive/zip/6739.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6739"
+}
+2023-07-16 09:11:56 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6739.zip",
+    "userId": "383",
+    "expId": "19",
+    "fileId": "6739"
+}
+2023-07-16 09:12:00 ReceiveResult {
+    "fileId": "6739",
+    "expId": 19,
+    "userId": "383",
+    "filePath": "/archive/zip/6739.zip",
+    "status": "300",
+    "statusDescr": "basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-16 09:12:00 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6739\",\n    \"expId\": 19,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6739.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"basic_pass_test:Fail;   advanced_pass_test:Fail;   advanced_efficiency_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-16 09:12:01 Remove the file /archive/zip/6739.zip
+2023-07-16 16:32:00 EnqueueData {
+    "filePath": "/archive/zip/6740.zip",
+    "userId": "383",
+    "expId": "21",
+    "fileId": "6740"
+}
+2023-07-16 16:32:00 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6740.zip",
+    "userId": "383",
+    "expId": "21",
+    "fileId": "6740"
+}
+2023-07-16 16:32:35 ReceiveResult {
+    "fileId": "6740",
+    "expId": 21,
+    "userId": "383",
+    "filePath": "/archive/zip/6740.zip",
+    "status": "300",
+    "statusDescr": "CSendC_test:Fail;   CSendPython_test:Fail;   pythonSendC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-16 16:32:35 Remove the file /archive/zip/6740.zip
+2023-07-16 16:32:35 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6740\",\n    \"expId\": 21,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6740.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CSendC_test:Fail;   CSendPython_test:Fail;   pythonSendC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-16 16:33:15 EnqueueData {
+    "filePath": "/archive/zip/6741.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6741"
+}
+2023-07-16 16:33:16 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6741.zip",
+    "userId": "383",
+    "expId": "20",
+    "fileId": "6741"
+}
+2023-07-16 16:33:34 ReceiveResult {
+    "fileId": "6741",
+    "expId": 20,
+    "userId": "383",
+    "filePath": "/archive/zip/6741.zip",
+    "status": "300",
+    "statusDescr": "CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-07-16 16:33:34 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6741\",\n    \"expId\": 20,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6741.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
+2023-07-16 16:33:34 Remove the file /archive/zip/6741.zip
+2023-07-16 16:34:29 EnqueueData {
+    "filePath": "/archive/zip/6742.zip",
+    "userId": "383",
+    "expId": "22",
+    "fileId": "6742"
+}
+2023-07-16 16:34:29 DequeueData delivered to 192.168.0.248:9999{
+    "filePath": "/archive/zip/6742.zip",
+    "userId": "383",
+    "expId": "22",
+    "fileId": "6742"
+}
+2023-07-17 12:01:42 ReceiveResult {
+    "fileId": "6722",
+    "expId": 22,
+    "userId": "383",
+    "filePath": "/archive/zip/6722.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-07-17 12:01:42 Remove the file /archive/zip/6722.zip
+2023-07-17 12:01:42 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6722\",\n    \"expId\": 22,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6722.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-07-24 15:30:22 ReceiveResult {
+    "fileId": "6723",
+    "expId": 22,
+    "userId": "383",
+    "filePath": "/archive/zip/6723.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.2.237"
+}
+2023-07-24 15:30:22 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6723\",\n    \"expId\": 22,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6723.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.2.237\"\n}"}
+2023-07-30 01:37:16 EnqueueData {
+    "filePath": "/archive/zip/6743.zip",
+    "userId": "373",
+    "expId": "16",
+    "fileId": "6743"
+}
+2023-07-30 01:37:16 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/6743.zip",
+    "userId": "373",
+    "expId": "16",
+    "fileId": "6743"
+}
+2023-07-30 01:37:49 ReceiveResult {
+    "fileId": "6743",
+    "expId": 16,
+    "userId": "373",
+    "filePath": "/archive/zip/6743.zip",
+    "status": "100",
+    "statusDescr": "ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-07-30 01:37:49 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6743\",\n    \"expId\": 16,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/6743.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"ring4_test:Pass;   ring8_test:Pass;   stpHub_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-07-30 01:37:49 Remove the file /archive/zip/6743.zip
+2023-07-30 01:39:09 EnqueueData {
+    "filePath": "/archive/zip/6744.zip",
+    "userId": "373",
+    "expId": "22",
+    "fileId": "6744"
+}
+2023-07-30 01:39:10 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/6744.zip",
+    "userId": "373",
+    "expId": "22",
+    "fileId": "6744"
+}
+2023-07-30 01:39:16 ReceiveResult {
+    "fileId": "6744",
+    "expId": 22,
+    "userId": "373",
+    "filePath": "/archive/zip/6744.zip",
+    "status": "100",
+    "statusDescr": "SNAT_test:Pass;   DNAT_test:Pass;   SDNAT_test:Pass;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-07-30 01:39:16 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6744\",\n    \"expId\": 22,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/6744.zip\",\n    \"status\": \"100\",\n    \"statusDescr\": \"SNAT_test:Pass;   DNAT_test:Pass;   SDNAT_test:Pass;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-07-30 01:39:16 Remove the file /archive/zip/6744.zip
+2023-07-30 01:40:21 EnqueueData {
+    "filePath": "/archive/zip/6745.zip",
+    "userId": "373",
+    "expId": "20",
+    "fileId": "6745"
+}
+2023-07-30 01:40:21 DequeueData delivered to 192.168.0.217:9999{
+    "filePath": "/archive/zip/6745.zip",
+    "userId": "373",
+    "expId": "20",
+    "fileId": "6745"
+}
+2023-07-30 01:40:39 ReceiveResult {
+    "fileId": "6745",
+    "expId": 20,
+    "userId": "373",
+    "filePath": "/archive/zip/6745.zip",
+    "status": "300",
+    "statusDescr": "CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   ",
+    "test": null,
+    "ip": "192.168.0.217"
+}
+2023-07-30 01:40:39 Remove the file /archive/zip/6745.zip
+2023-07-30 01:40:39 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6745\",\n    \"expId\": 20,\n    \"userId\": \"373\",\n    \"filePath\": \"/archive/zip/6745.zip\",\n    \"status\": \"300\",\n    \"statusDescr\": \"CEchoC_test:Fail;   CEchoPython_test:Fail;   pythonEchoC_test:Fail;   \",\n    \"test\": null,\n    \"ip\": \"192.168.0.217\"\n}"}
+2023-08-04 07:21:15 ReceiveResult {
+    "fileId": "6742",
+    "expId": 22,
+    "userId": "383",
+    "filePath": "/archive/zip/6742.zip",
+    "status": "200",
+    "statusDescr": "编译失败",
+    "test": null,
+    "ip": "192.168.0.248"
+}
+2023-08-04 07:21:15 ReturnSun {"code": 500, "message": "", "data": "{\n    \"fileId\": \"6742\",\n    \"expId\": 22,\n    \"userId\": \"383\",\n    \"filePath\": \"/archive/zip/6742.zip\",\n    \"status\": \"200\",\n    \"statusDescr\": \"\u7f16\u8bd1\u5931\u8d25\",\n    \"test\": null,\n    \"ip\": \"192.168.0.248\"\n}"}
