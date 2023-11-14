@@ -5,12 +5,12 @@ all : $(TARGET)
 CC = gcc
 LD = gcc
 
-CFLAGS = -g -std=gnu99 -Wall -Iinclude
+CFLAGS = -g -Wall -Iinclude
 LDFLAGS = 
 
 LIBS = -lpthread
 
-SRCS = $(wildcard *.c)
+SRCS = stp.c stp_timer.c main.c device_internal.c
 
 OBJS = $(patsubst %.c,%.o,$(SRCS))
 
