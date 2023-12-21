@@ -1,4 +1,4 @@
 {
     "status": "100",
-    "statusDescr": "pythonEchoC_test:Pass;   "
+    "statusDescr": "CEchoC_test:Pass;   CEchoPython_test:Pass;   pythonEchoC_test:Pass;   "
 }

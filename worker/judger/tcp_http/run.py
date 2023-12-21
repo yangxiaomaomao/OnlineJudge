@@ -38,13 +38,13 @@ def detectKernelPort(h,port):
     if detect_ports.find("0.0.0.0:%s" % port) == -1:
         return False # not find the port 80
     else:
-        return False #True # find students' trick, the process is using 80 port of the kernel, not its own!
+        return True #True # find students' trick, the process is using 80 port of the kernel, not its own!
 
 def finalTest(execFile):
     net, h1, h2 = generateHttpTopo(TCPTopo())
     net.start()
-    #CLI(net)
-    #return 0
+    # CLI(net)
+    # return 0
     time.sleep(0.5)
     h1.cmd("./%s &" % execFile)
     #h1.cmd("python3 del.py")

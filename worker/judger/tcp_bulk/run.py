@@ -11,7 +11,7 @@ from tools.topos import TCPTopo
 from tools.tools import fillInInfo
 
 DEBUG = 0
-send_time = 10
+send_time = 20
 client_file = "client-input.dat"
 server_file = "server-output.dat"
 
@@ -63,7 +63,8 @@ def CSendPythonTest(execFile):
     net, h1, h2 = generateBulkTopo(TCPTopo())
 
     net.start()
-
+    # CLI(net)
+    # sys.exit(0)
     h1.cmd("python3 bulk.py server 10001 &")
     
     time.sleep(0.5)
@@ -76,7 +77,7 @@ def CSendPythonTest(execFile):
 
     try:
         ret = filecmp.cmp(client_file, server_file)
-        os.remove(server_file)
+        #os.remove(server_file)
         return ret
     except:
         return False

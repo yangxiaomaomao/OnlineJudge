@@ -50,3 +50,4 @@ try:
 except:
     scores["http_range2"] = False
 print(scores)
+print(test_dir + '/../index.html')

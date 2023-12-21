@@ -24,7 +24,6 @@ for i in range(10):
 def uniformData(file):
     with open(file, "r") as f:
         res = f.readlines()
-
     ret = []
     for item in res:
         if item[0:15] == "server echoes: ":
@@ -52,7 +51,7 @@ def CEchoCTest(execFile):
     net, h1, h2 = generateEchoTopo(TCPTopo())
 
     net.start()
-
+    
     h1.cmd("./%s server 10001 &" % execFile)
 
     h2.cmd("./%s client 10.0.0.1 10001 > %s &" % (execFile, client_res))
@@ -129,6 +128,7 @@ def pythonEchoCTest(execFile):
     cmp_data = [item[:len(res[0])] for item in uniform_cmp_data[:len(res)]]
     print("res",res)
     print("cmp_data",cmp_data)
+    
     return res == cmp_data
 
 
@@ -154,6 +154,7 @@ if __name__ == "__main__":
     }
     if not DEBUG:
         os.remove(exec_file)
+    
 
     fillInInfo(scores, info)
     
