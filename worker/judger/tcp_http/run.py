@@ -33,8 +33,9 @@ def generateHttpTopo(topo):
     return net, h1, h2
  
 def detectKernelPort(h,port):
+    h.cmd("ls") # flush buffer of h1 to avoid missdetect
     detect_ports = h.cmd("netstat -tunlp")
-    
+
     if detect_ports.find("0.0.0.0:%s" % port) == -1:
         return False # not find the port 80
     else:
@@ -60,6 +61,7 @@ def finalTest(execFile):
             "http_range1":False,
             "http_range2":False
         }
+        print("detect")
     else:
         scores = h2.cmd("python3 test/test.py")
         scores = eval(scores)
@@ -81,7 +83,6 @@ if __name__ == '__main__':
 
     scores = finalTest(exec_file)
     
-    print(scores)
     # sys.exit(0)
     if not DEBUG:
         os.remove(exec_file)

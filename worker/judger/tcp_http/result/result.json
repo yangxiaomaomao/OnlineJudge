@@ -1,4 +1,4 @@
 {
-    "status": "300",
-    "statusDescr": "http_200_test:Fail;   http_404_test:Fail;   http_in_dir_test:Fail;   http_range1_test:Fail;   http_range2_test:Fail;   "
+    "status": "100",
+    "statusDescr": "http_200_test:Pass;   http_404_test:Pass;   http_in_dir_test:Pass;   http_range1_test:Pass;   http_range2_test:Pass;   "
 }
