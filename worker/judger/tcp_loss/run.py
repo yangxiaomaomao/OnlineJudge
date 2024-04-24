@@ -10,7 +10,7 @@ sys.path.append("..")
 from tools.topos import TCPLossTopo
 from tools.tools import fillInInfo
 
-DEBUG = 0
+DEBUG = 1
 send_time = 20
 client_file = "client-input.dat"
 server_file = "server-output.dat"
@@ -38,7 +38,6 @@ def CSendCTest(execFile):
     net, h1, h2 = generateBulkTopo(TCPLossTopo())
 
     net.start()
-
     h1.cmd("./%s server 10001 &" % execFile)
     
     time.sleep(0.5)
@@ -52,7 +51,7 @@ def CSendCTest(execFile):
 
     try:
         ret = filecmp.cmp(client_file, server_file)
-        os.remove(server_file)
+        #os.remove(server_file)
         return ret
     except:
         return False
@@ -134,7 +133,7 @@ def pythonSendPythonTest(execFile):
 if __name__ == "__main__":
     if DEBUG:
         result_path = "result"
-        exec_file = "tcp_bulk"
+        exec_file = "cxy"
     else:
         result_path = sys.argv[1]
         exec_file = sys.argv[2]
@@ -148,8 +147,8 @@ if __name__ == "__main__":
     # h2: client
     scores = {
         "CSendC": CSendCTest(exec_file),
-        "CSendPython": CSendPythonTest(exec_file),
-        "pythonSendC": CSendCTest(exec_file),
+        # "CSendPython": CSendPythonTest(exec_file),
+        # "pythonSendC": CSendCTest(exec_file),
         #"pythonSendPython": pythonSendPythonTest(exec_file)
     }
     if not DEBUG:

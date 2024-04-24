@@ -10,7 +10,7 @@ sys.path.append("..")
 from tools.tools import fillInInfo
 from tools.topos import TCPTopo
 
-DEBUG = 0
+DEBUG = 1
 
 data = tcp_echo.data
 
@@ -51,7 +51,8 @@ def CEchoCTest(execFile):
     net, h1, h2 = generateEchoTopo(TCPTopo())
 
     net.start()
-    
+    # CLI(net)
+    # return 0
     h1.cmd("./%s server 10001 &" % execFile)
 
     h2.cmd("./%s client 10.0.0.1 10001 > %s &" % (execFile, client_res))
@@ -135,7 +136,7 @@ def pythonEchoCTest(execFile):
 if __name__ == "__main__":
     if DEBUG:
         result_path = "result"
-        exec_file = "tcp_echo"
+        exec_file = "llh"
     else:
         result_path = sys.argv[1]
         exec_file = sys.argv[2]
@@ -152,6 +153,7 @@ if __name__ == "__main__":
         "CEchoPython": CEchoPythonTest(exec_file),
         "pythonEchoC": pythonEchoCTest(exec_file)
     }
+    print(scores)
     if not DEBUG:
         os.remove(exec_file)
     

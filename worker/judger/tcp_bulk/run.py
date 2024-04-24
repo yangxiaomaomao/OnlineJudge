@@ -10,7 +10,7 @@ sys.path.append("..")
 from tools.topos import TCPTopo
 from tools.tools import fillInInfo
 
-DEBUG = 0
+DEBUG = 1
 send_time = 20
 client_file = "client-input.dat"
 server_file = "server-output.dat"

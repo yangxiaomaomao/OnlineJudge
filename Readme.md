@@ -21,7 +21,7 @@
 ### master
 1. 启动nginx：`sudo systemctl restart nginx`(每次修改nginx.conf都最好重启一下)
 2. 在[tmux](./Readme/tmux.md)中启动springBoot后端：`java -jar xx.jar`，xxx.jar是编译好的包，目前叫做OnlineJudge.jar，位置在OJ/springBoot
-3. 在[tmux](./Readme/tmux.md)中启动数据库：进入OJ/database并且执行`docker-compose up -d`
+3. 在[tmux](./Readme/tmux.md)中启动数据库：进入OJ/database并且执行`docker-compose up`
 4. 在[tmux](./Readme/tmux.md)中[启动master](./Readme/master.md)
 
 ### worker

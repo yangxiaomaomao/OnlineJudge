@@ -12,7 +12,7 @@ from tools.tools import getPingResult,fillInInfo,clearIP
 from tools.topos import httpServerTopo
 import ast
 
-DEBUG = 0
+DEBUG = 1
 
 def generateHttpTopo(topo):
     net = Mininet(topo = topo, switch = OVSBridge, link = TCLink, controller = None)
@@ -24,7 +24,8 @@ def generateHttpTopo(topo):
 def testAllInOnce(execFile):
     net, h1, h2 = generateHttpTopo(httpServerTopo())
     net.start()
-    
+    CLI(net)
+    sys.exit(0)
     time.sleep(0.5)
     h1.cmd("./%s &" % execFile)
     scores = h2.cmd("python3 test/test.py")

@@ -734,3 +734,7 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-12-22T22:37:08Z. Curren
 2023/12/23-19:48:37 INFO  用户连接:2021K8009970005 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-15]
 2023/12/23-19:48:38 INFO  this is myFilter, url: /OnlineJudge/contest/token - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-4]
 2023/12/23-19:48:38 INFO  this is myFilter, url: /OnlineJudge/contest/info/main - c.s.o.common.filter.MyFilter - [http-nio-127.0.0.1-8080-exec-3]
+2023/12/23-19:53:37 ERROR 用户错误:2021K8009970005,原因:null - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-7]
+2023/12/23-19:53:37 INFO  2021K8009970005用户退出 - c.s.o.common.utils.WebSocketService - [http-nio-127.0.0.1-8080-exec-7]
+2023/12/23-19:54:38 INFO  HikariPool-1 - Shutdown initiated... - com.zaxxer.hikari.HikariDataSource - [Thread-2]
+2023/12/23-19:54:38 INFO  HikariPool-1 - Shutdown completed. - com.zaxxer.hikari.HikariDataSource - [Thread-2]

@@ -7,8 +7,11 @@ def del_archive():
     print("Pay attention to the cmd you will execute")
     sys.exit(0)
     dir_list = [str(i) for i in range(13,25)]
+    print(dir_list)
+    #sys.exit(0)
     for dir in dir_list:
         hw_path = os.path.join("/archive", dir)
+        print("rm -rf %s/*" % hw_path)
         assert(hw_path != "")
         assert(hw_path != " ")
         os.system("rm -rf %s/*" % hw_path)

@@ -129,7 +129,9 @@ def main(fileId, expId, userId, filePath):
             result = f.read()
     
     if not DEBUG:
-        os.remove("result.json")
+        if os.path.exists("result.json"):
+            os.remove("result.json")
+
      
     resultJson = json.loads(result)
     retInfo["status"] = resultJson["status"]

@@ -1,4 +1,4 @@
 {
     "status": "300",
-    "statusDescr": "CSendPython_test:Fail;   "
+    "statusDescr": "CSendC_test:Pass;   CSendPython_test:Pass;   pythonSendC_test:Fail;   "
 }
